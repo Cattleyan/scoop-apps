@@ -4008,6 +4008,7 @@ redis_exporter.json,hoilc/scoop-lemon
 djvutoy-eng.json,hoilc/scoop-lemon
 rpk.json,hoilc/scoop-lemon
 ikago.json,hoilc/scoop-lemon
+freevk.json,hoilc/scoop-lemon
 docker-ls.json,hoilc/scoop-lemon
 lpvpn.json,hoilc/scoop-lemon
 pdg2pic.json,hoilc/scoop-lemon
@@ -5040,7 +5041,7 @@ scummvm-nightly.json,hermanjustnu/scoop-emulators
 pcsx2-sse4-vxwidgets.json,hermanjustnu/scoop-emulators
 b-em.json,hermanjustnu/scoop-emulators
 xemu_hermanjustnu.json,hermanjustnu/scoop-emulators
-dolphin-dev.json,hermanjustnu/scoop-emulators
+dolphin-dev_hermanjustnu.json,hermanjustnu/scoop-emulators
 winuae.json,hermanjustnu/scoop-emulators
 steam-rom-manager_hermanjustnu.json,hermanjustnu/scoop-emulators
 fceux-qt-interim.json,hermanjustnu/scoop-emulators
@@ -5123,7 +5124,7 @@ rpcs3_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
 mgba-dev_borger.json,borger/scoop-emulators
-redream-dev_borger.json,borger/scoop-emulators
+redream-dev.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 cemuhook_borger.json,borger/scoop-emulators
@@ -5150,7 +5151,7 @@ vita3k_borger.json,borger/scoop-emulators
 bsnes-hd-beta_borger.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
-citra.json,borger/scoop-emulators
+citra_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 mgba_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
@@ -5540,7 +5541,7 @@ Notation.json,dodorz/scoop
 Everything-CLI_dodorz.json,dodorz/scoop
 NanoEmacsWin.json,dodorz/scoop
 HTMLNotepad.json,dodorz/scoop
-SysInternals_dodorz.json,dodorz/scoop
+SysInternals.json,dodorz/scoop
 SmallBASIC.json,dodorz/scoop
 PDFPresenter.json,dodorz/scoop
 Zim.json,dodorz/scoop
@@ -5782,6 +5783,7 @@ HotkeyP.json,dodorz/scoop
 aget.json,dodorz/scoop
 ASharperScaling.json,dodorz/scoop
 UniversalViewerPro.json,dodorz/scoop
+grex_dodorz.json,dodorz/scoop
 NpackdCL.json,dodorz/scoop
 Bacar.json,dodorz/scoop
 JavaGeometryExpert.json,dodorz/scoop
@@ -6086,7 +6088,7 @@ edx.json,ViCrack/scoop-bucket
 windterm.json,ViCrack/scoop-bucket
 mysql-fake-server.json,ViCrack/scoop-bucket
 ksubdomain.json,ViCrack/scoop-bucket
-newfiletime_ViCrack.json,ViCrack/scoop-bucket
+newfiletime.json,ViCrack/scoop-bucket
 fastgithub.json,ViCrack/scoop-bucket
 quarkpan.json,akirco/aki-apps
 gitomatic_akirco.json,akirco/aki-apps
@@ -6488,6 +6490,7 @@ etcher.json,DoveBoy/Apps
 reqable.json,DoveBoy/Apps
 clink-flex-prompt_DoveBoy.json,DoveBoy/Apps
 ttyd_DoveBoy.json,DoveBoy/Apps
+raptor-standalone.json,DoveBoy/Apps
 pwsh-beta_DoveBoy.json,DoveBoy/Apps
 mihomo-compatible-go120.json,DoveBoy/Apps
 dua_DoveBoy.json,DoveBoy/Apps
@@ -6578,7 +6581,7 @@ quasar_DoveBoy.json,DoveBoy/Apps
 cmder-full_DoveBoy.json,DoveBoy/Apps
 littletips-portable.json,DoveBoy/Apps
 capture2text_DoveBoy.json,DoveBoy/Apps
-typora.json,DoveBoy/Apps
+typora_DoveBoy.json,DoveBoy/Apps
 heu-kms-activator.json,DoveBoy/Apps
 musicfreedesktop.json,DoveBoy/Apps
 adb_DoveBoy.json,DoveBoy/Apps
@@ -6626,7 +6629,7 @@ gopeed-web.json,DoveBoy/Apps
 chatgpt.json,DoveBoy/Apps
 obs-studio-pre_DoveBoy.json,DoveBoy/Apps
 telegram-downloader.json,DoveBoy/Apps
-picpick.json,DoveBoy/Apps
+picpick_DoveBoy.json,DoveBoy/Apps
 potplayer_DoveBoy.json,DoveBoy/Apps
 hyper.json,DoveBoy/Apps
 v2rayn-core.json,DoveBoy/Apps
@@ -6674,6 +6677,7 @@ joinersplitter.json,DoveBoy/Apps
 mpv.net.json,DoveBoy/Apps
 ffmpeg-nightly_DoveBoy.json,DoveBoy/Apps
 shotcut.json,DoveBoy/Apps
+chromedriver-canary.json,DoveBoy/Apps
 winfetch_DoveBoy.json,DoveBoy/Apps
 revokemsgpatcher_DoveBoy.json,DoveBoy/Apps
 waifu2x-ncnn-vulkan_DoveBoy.json,DoveBoy/Apps
@@ -6794,6 +6798,7 @@ sudo_DoveBoy.json,DoveBoy/Apps
 waifu2x-snowshell_DoveBoy.json,DoveBoy/Apps
 v2raya-git.json,DoveBoy/Apps
 ps-guicompletion.json,DoveBoy/Apps
+raptor-integrated.json,DoveBoy/Apps
 naiveproxy_DoveBoy.json,DoveBoy/Apps
 winscp.json,DoveBoy/Apps
 refreshenv_DoveBoy.json,DoveBoy/Apps
@@ -6883,6 +6888,7 @@ pwsh_DoveBoy.json,DoveBoy/Apps
 calibre.json,DoveBoy/Apps
 typioca_DoveBoy.json,DoveBoy/Apps
 pywxdump.json,DoveBoy/Apps
+liveautorecord.json,DoveBoy/Apps
 handbrake-cli_DoveBoy.json,DoveBoy/Apps
 pixivutil2.json,DoveBoy/Apps
 spacedrive.json,DoveBoy/Apps
