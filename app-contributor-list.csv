@@ -4207,7 +4207,7 @@ mtputty.json,hoilc/scoop-lemon
 soundswitch.json,hoilc/scoop-lemon
 vtex2.json,hoilc/scoop-lemon
 libportable-floorp-lightning.json,hoilc/scoop-lemon
-gitlab-release-cli.json,hoilc/scoop-lemon
+gitlab-release-cli_hoilc.json,hoilc/scoop-lemon
 gosmee.json,hoilc/scoop-lemon
 smuxi.json,hoilc/scoop-lemon
 space-cli.json,hoilc/scoop-lemon
@@ -4268,7 +4268,7 @@ aliyundrive-webdav_hoilc.json,hoilc/scoop-lemon
 astro-cli.json,hoilc/scoop-lemon
 sleep.json,hoilc/scoop-lemon
 chinesesubfinder.json,hoilc/scoop-lemon
-pot.json,hoilc/scoop-lemon
+pot_hoilc.json,hoilc/scoop-lemon
 xdown.json,hoilc/scoop-lemon
 coscli.json,hoilc/scoop-lemon
 worsttrace.json,hoilc/scoop-lemon
@@ -5038,7 +5038,7 @@ pcsx2_hermanjustnu.json,hermanjustnu/scoop-emulators
 mednaffe_hermanjustnu.json,hermanjustnu/scoop-emulators
 atariplusplus.json,hermanjustnu/scoop-emulators
 pcsx2-avx2-vxwidgets.json,hermanjustnu/scoop-emulators
-citra-canary_hermanjustnu.json,hermanjustnu/scoop-emulators
+citra-canary.json,hermanjustnu/scoop-emulators
 mednafen_hermanjustnu.json,hermanjustnu/scoop-emulators
 yuzu_hermanjustnu.json,hermanjustnu/scoop-emulators
 vice-sdl2.json,hermanjustnu/scoop-emulators
@@ -5152,7 +5152,7 @@ retroarch-nightly_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
-citra-canary_borger.json,borger/scoop-emulators
+citra-canary.json,borger/scoop-emulators
 yuzu_borger.json,borger/scoop-emulators
 mednafen-dev_borger.json,borger/scoop-emulators
 fceux.json,borger/scoop-emulators
@@ -6647,7 +6647,7 @@ brackets.json,DoveBoy/Apps
 shadowsocksr-hmbsbige.json,DoveBoy/Apps
 nano_DoveBoy.json,DoveBoy/Apps
 biliup-rs_DoveBoy.json,DoveBoy/Apps
-blockthespot.json,DoveBoy/Apps
+blockthespot_DoveBoy.json,DoveBoy/Apps
 ipinfo_DoveBoy.json,DoveBoy/Apps
 mpv.json,DoveBoy/Apps
 mpv-git.json,DoveBoy/Apps
@@ -7058,7 +7058,6 @@ openai-translator.json,DoveBoy/Apps
 whisper.json,DoveBoy/Apps
 host-editor.json,DoveBoy/Apps
 sandboxie-classic.json,DoveBoy/Apps
-pot-desktop.json,DoveBoy/Apps
 sing-box_DoveBoy.json,DoveBoy/Apps
 binggpt-portable.json,DoveBoy/Apps
 winget_DoveBoy.json,DoveBoy/Apps
@@ -7622,7 +7621,7 @@ neeview.json,hu3rror/scoop-muggle
 neat-reader.json,hu3rror/scoop-muggle
 cheat-engine.json,hu3rror/scoop-muggle
 imagine_hu3rror.json,hu3rror/scoop-muggle
-pot-desktop_hu3rror.json,hu3rror/scoop-muggle
+pot-desktop.json,hu3rror/scoop-muggle
 goodsync-10.json,hu3rror/scoop-muggle
 pixivbiu_hu3rror.json,hu3rror/scoop-muggle
 nhse.json,hu3rror/scoop-muggle
