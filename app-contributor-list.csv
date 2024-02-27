@@ -1695,6 +1695,7 @@ autodarkmode_ivaquero.json,ivaquero/scoopet
 obs-studio-cn.json,ivaquero/scoopet
 buzz.json,ivaquero/scoopet
 winrar.json,ivaquero/scoopet
+fishing-funds.json,ivaquero/scoopet
 tencent-meeting.json,ivaquero/scoopet
 git-cn.json,ivaquero/scoopet
 kicad-cn.json,ivaquero/scoopet
@@ -5132,7 +5133,7 @@ qualitymuncher.json,couleur-tweak-tips/utils
 privacysexy.json,couleur-tweak-tips/utils
 mesen_borger.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
-desmume.json,borger/scoop-emulators
+desmume_borger.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
@@ -5170,7 +5171,7 @@ vita3k_borger.json,borger/scoop-emulators
 bsnes-hd-beta_borger.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
-citra_borger.json,borger/scoop-emulators
+citra.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 mgba_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
@@ -5823,7 +5824,7 @@ WGestures-np.json,dodorz/scoop
 scoop-completion.json,dodorz/scoop
 Arturo.json,dodorz/scoop
 SetSFN_dodorz.json,dodorz/scoop
-WeChat.json,dodorz/scoop
+WeChat_dodorz.json,dodorz/scoop
 CPod.json,dodorz/scoop
 TypeAndRun.json,dodorz/scoop
 BuiltIn_dodorz.json,dodorz/scoop
@@ -6333,7 +6334,6 @@ rnr_akirco.json,akirco/aki-apps
 ffmpeg_akirco.json,akirco/aki-apps
 telegram.json,akirco/aki-apps
 obs-studio.json,akirco/aki-apps
-fishingfunds.json,akirco/aki-apps
 vcredist2017.json,akirco/aki-apps
 xmind.json,akirco/aki-apps
 gradle4_akirco.json,akirco/aki-apps
@@ -6952,7 +6952,7 @@ clash-verge_DoveBoy.json,DoveBoy/Apps
 autodarkmode_DoveBoy.json,DoveBoy/Apps
 calctus.json,DoveBoy/Apps
 buzz_DoveBoy.json,DoveBoy/Apps
-fastcopy_DoveBoy.json,DoveBoy/Apps
+fastcopy.json,DoveBoy/Apps
 openoffice.json,DoveBoy/Apps
 scoop-search-chriscp.json,DoveBoy/Apps
 shadowsocks-qtun-plugin.json,DoveBoy/Apps
