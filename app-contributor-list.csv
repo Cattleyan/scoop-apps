@@ -1286,7 +1286,7 @@ mosdns-cn.json,chawyehsu/dorado
 miniconda.json,chawyehsu/dorado
 esbuild.json,chawyehsu/dorado
 nomeiryoui.json,chawyehsu/dorado
-wasmedge.json,chawyehsu/dorado
+wasmedge_chawyehsu.json,chawyehsu/dorado
 lepton.json,chawyehsu/dorado
 electerm_chawyehsu.json,chawyehsu/dorado
 pixitracker.json,chawyehsu/dorado
@@ -3312,7 +3312,7 @@ livecontactsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 wirelessnetconsole_ScoopInstaller.json,ScoopInstaller/Nirsoft
 iedesignmode_ScoopInstaller.json,ScoopInstaller/Nirsoft
 pocketasterisk.json,ScoopInstaller/Nirsoft
-wifiinfoview_ScoopInstaller.json,ScoopInstaller/Nirsoft
+wifiinfoview.json,ScoopInstaller/Nirsoft
 bluetoothcl_ScoopInstaller.json,ScoopInstaller/Nirsoft
 skypecontactsview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 wirelesskeyview_ScoopInstaller.json,ScoopInstaller/Nirsoft
@@ -5800,7 +5800,7 @@ betterjoy_hermanjustnu.json,hermanjustnu/scoop-emulators
 pcsx2_hermanjustnu.json,hermanjustnu/scoop-emulators
 mgba_hermanjustnu.json,hermanjustnu/scoop-emulators
 model-b.json,hermanjustnu/scoop-emulators
-mgba-dev_hermanjustnu.json,hermanjustnu/scoop-emulators
+mgba-dev.json,hermanjustnu/scoop-emulators
 citra-nightly.json,hermanjustnu/scoop-emulators
 pcsx2-avx2-vxwidgets.json,hermanjustnu/scoop-emulators
 melonds_hermanjustnu.json,hermanjustnu/scoop-emulators
@@ -5825,7 +5825,7 @@ visualboyadvance-m_hermanjustnu.json,hermanjustnu/scoop-emulators
 citra-canary.json,hermanjustnu/scoop-emulators
 redream-dev_hermanjustnu.json,hermanjustnu/scoop-emulators
 pcsx2-sse4-qt.json,hermanjustnu/scoop-emulators
-dolphin-dev.json,hermanjustnu/scoop-emulators
+dolphin-dev_hermanjustnu.json,hermanjustnu/scoop-emulators
 xenia-canary_hermanjustnu.json,hermanjustnu/scoop-emulators
 sameboy_hermanjustnu.json,hermanjustnu/scoop-emulators
 scummvm-nightly.json,hermanjustnu/scoop-emulators
@@ -5920,7 +5920,7 @@ fceux.json,borger/scoop-emulators
 desmume.json,borger/scoop-emulators
 flycast_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
-cemu-dev.json,borger/scoop-emulators
+cemu-dev_borger.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 visualboyadvance-m_borger.json,borger/scoop-emulators
@@ -8125,7 +8125,7 @@ lanzou-cmd.json,DoveBoy/Apps
 bat_DoveBoy.json,DoveBoy/Apps
 ntrace-v1.json,DoveBoy/Apps
 alisthelper_DoveBoy.json,DoveBoy/Apps
-obs-studio-pre_DoveBoy.json,DoveBoy/Apps
+obs-studio-pre.json,DoveBoy/Apps
 v2rayn-core-with-runtime.json,DoveBoy/Apps
 npm-tab-completion.json,DoveBoy/Apps
 etcher.json,DoveBoy/Apps
@@ -8148,12 +8148,12 @@ powertoys_DoveBoy.json,DoveBoy/Apps
 sharex-dev_DoveBoy.json,DoveBoy/Apps
 sshwifty.json,DoveBoy/Apps
 clash-verge-rev-portable.json,DoveBoy/Apps
-qalculate.json,DoveBoy/Apps
+qalculate_DoveBoy.json,DoveBoy/Apps
 go-musicfox.json,DoveBoy/Apps
 cloudflarespeedtest_DoveBoy.json,DoveBoy/Apps
 compactgui.json,DoveBoy/Apps
 gopeed-portable.json,DoveBoy/Apps
-qqlive_DoveBoy.json,DoveBoy/Apps
+qqlive.json,DoveBoy/Apps
 ugrep_DoveBoy.json,DoveBoy/Apps
 bulk-crap-uninstaller.json,DoveBoy/Apps
 freefilesync_DoveBoy.json,DoveBoy/Apps
@@ -9334,7 +9334,7 @@ rare_Small-Ku.json,Small-Ku/turbo-bucket
 psst.json,Small-Ku/turbo-bucket
 better-genshin-impact.json,Small-Ku/turbo-bucket
 jxl-winthumb.json,Small-Ku/turbo-bucket
-starward_Small-Ku.json,Small-Ku/turbo-bucket
+starward.json,Small-Ku/turbo-bucket
 icora.json,Small-Ku/turbo-bucket
 star-rail-tool.json,Small-Ku/turbo-bucket
 reshade-addon-dll.json,Small-Ku/turbo-bucket
