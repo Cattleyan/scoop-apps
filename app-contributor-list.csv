@@ -260,6 +260,7 @@ psmodule-GuiCompletion.json,Weidows-projects/scoop-3rd
 bongocat-osu.json,Weidows-projects/scoop-3rd
 Kemono-scraper.json,Weidows-projects/scoop-3rd
 Jvedio.json,Weidows-projects/scoop-3rd
+hello-vam.json,Weidows-projects/scoop-3rd
 PartAssist.json,Weidows-projects/scoop-3rd
 UmaAi.json,Weidows-projects/scoop-3rd
 CefDetectorX.json,Weidows-projects/scoop-3rd
@@ -1110,7 +1111,7 @@ ediary.json,chawyehsu/dorado
 crystaldiskmark-shizuku-edition.json,chawyehsu/dorado
 git_chawyehsu.json,chawyehsu/dorado
 pot.json,chawyehsu/dorado
-flutter-cn.json,chawyehsu/dorado
+flutter-cn_chawyehsu.json,chawyehsu/dorado
 spdpd-assistant.json,chawyehsu/dorado
 firefox-developer-zh-cn.json,chawyehsu/dorado
 archive.is.json,chawyehsu/dorado
@@ -5869,7 +5870,7 @@ cemu_hermanjustnu.json,hermanjustnu/scoop-emulators
 fceux-dev.json,hermanjustnu/scoop-emulators
 mameui.json,hermanjustnu/scoop-emulators
 rpcs3_hermanjustnu.json,hermanjustnu/scoop-emulators
-ryujinx_hermanjustnu.json,hermanjustnu/scoop-emulators
+ryujinx.json,hermanjustnu/scoop-emulators
 hoxs64.json,hermanjustnu/scoop-emulators
 scummvm_hermanjustnu.json,hermanjustnu/scoop-emulators
 ppsspp-dev_hermanjustnu.json,hermanjustnu/scoop-emulators
@@ -6632,6 +6633,7 @@ AnyTXTSearcher-np.json,dodorz/scoop
 SquirrelShell.json,dodorz/scoop
 SodaPlayer.json,dodorz/scoop
 cemu-dev_borger.json,borger/scoop-emulators
+shipwright.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 melonds_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
@@ -6670,7 +6672,7 @@ xenia_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
 pcsx2-dev_borger.json,borger/scoop-emulators
-ryujinx_borger.json,borger/scoop-emulators
+ryujinx.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
 desmume.json,borger/scoop-emulators
@@ -7592,7 +7594,7 @@ onlyoffice-desktopeditors.json,DoveBoy/Apps
 ffmpeg-nightly_DoveBoy.json,DoveBoy/Apps
 joplin.json,DoveBoy/Apps
 aria2_DoveBoy.json,DoveBoy/Apps
-alisthelper_DoveBoy.json,DoveBoy/Apps
+alisthelper.json,DoveBoy/Apps
 ps-guicompletion.json,DoveBoy/Apps
 neovim_DoveBoy.json,DoveBoy/Apps
 pterm.json,DoveBoy/Apps
@@ -8265,6 +8267,7 @@ sarasa-fixed-slab-cl-nerd-font.json,jonz94/scoop-sarasa-nerd-fonts
 sarasa-term-j-nerd-font.json,jonz94/scoop-sarasa-nerd-fonts
 confettysh.json,charmbracelet/scoop-bucket
 vhs_charmbracelet.json,charmbracelet/scoop-bucket
+freeze.json,charmbracelet/scoop-bucket
 glow_charmbracelet.json,charmbracelet/scoop-bucket
 soft-serve.json,charmbracelet/scoop-bucket
 melt.json,charmbracelet/scoop-bucket
