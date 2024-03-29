@@ -6703,7 +6703,7 @@ flycast_borger.json,borger/scoop-emulators
 project64-dev_borger.json,borger/scoop-emulators
 dolphin-dev_borger.json,borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json,borger/scoop-emulators
-duckstation_borger.json,borger/scoop-emulators
+duckstation.json,borger/scoop-emulators
 snes9x-dev_borger.json,borger/scoop-emulators
 mgba-dev_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
@@ -7346,7 +7346,7 @@ ddu.json,DoveBoy/Apps
 douyu.json,DoveBoy/Apps
 nhentai-cross.json,DoveBoy/Apps
 winscp.json,DoveBoy/Apps
-sharex-dev.json,DoveBoy/Apps
+sharex-dev_DoveBoy.json,DoveBoy/Apps
 calibre.json,DoveBoy/Apps
 clone-voice.json,DoveBoy/Apps
 fileconverter.json,DoveBoy/Apps
@@ -7639,7 +7639,7 @@ trafficmonitor_DoveBoy.json,DoveBoy/Apps
 auto-unlocker.json,DoveBoy/Apps
 cmwtat-digital-edition.json,DoveBoy/Apps
 imagemagick-lean_DoveBoy.json,DoveBoy/Apps
-fastcopy_DoveBoy.json,DoveBoy/Apps
+fastcopy.json,DoveBoy/Apps
 ali.json,DoveBoy/Apps
 watttoolkit.json,DoveBoy/Apps
 qbittorrent.json,DoveBoy/Apps
@@ -7799,6 +7799,7 @@ mihomo-compatible.json,DoveBoy/Apps
 clash-rev-go120.json,DoveBoy/Apps
 localsend.json,DoveBoy/Apps
 hackbrowserdata.json,DoveBoy/Apps
+clashtui.json,DoveBoy/Apps
 littletips.json,DoveBoy/Apps
 qqmusic_DoveBoy.json,DoveBoy/Apps
 vcpkg_DoveBoy.json,DoveBoy/Apps
@@ -7817,7 +7818,7 @@ clashn_DoveBoy.json,DoveBoy/Apps
 yt-dlp_DoveBoy.json,DoveBoy/Apps
 litespeedtest.json,DoveBoy/Apps
 iobit-advanced-system-care-free.json,DoveBoy/Apps
-bilibili_DoveBoy.json,DoveBoy/Apps
+bilibili.json,DoveBoy/Apps
 czkawka_DoveBoy.json,DoveBoy/Apps
 hibituninstaller.json,DoveBoy/Apps
 pixeval.json,DoveBoy/Apps
@@ -8443,6 +8444,7 @@ silk2mp3.json,ygguorun/scoop-bucket
 typora1.2.5.json,ygguorun/scoop-bucket
 ShadowExplorer.json,ygguorun/scoop-bucket
 PDB2ePubChs.json,ygguorun/scoop-bucket
+embyToLocalPlayer.json,ygguorun/scoop-bucket
 jpfont-nds.json,ygguorun/scoop-bucket
 WinFontPlus.json,ygguorun/scoop-bucket
 kaf-cli_ygguorun.json,ygguorun/scoop-bucket
