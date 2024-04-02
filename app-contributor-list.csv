@@ -332,6 +332,7 @@ SmartSystemMenu.json,Weidows-projects/scoop-3rd
 Lively-Wallpaper.json,Weidows-projects/scoop-3rd
 psmodule-7Zip4Powershell.json,Weidows-projects/scoop-3rd
 RM-ATKtools.json,Weidows-projects/scoop-3rd
+bottom_Weidows-projects.json,Weidows-projects/scoop-3rd
 SamToki-pack.json,Weidows-projects/scoop-3rd
 MyDockFinder.json,Weidows-projects/scoop-3rd
 xmanager.json,SayCV/scoop-cvp
@@ -1668,6 +1669,7 @@ cataclysm-dda-tiles.json,Calinou/scoop-games
 newer-tanooki.json,Calinou/scoop-games
 amulet-map-editor.json,Calinou/scoop-games
 jeveassets.json,Calinou/scoop-games
+dreamm.json,Calinou/scoop-games
 openxcom.json,Calinou/scoop-games
 melonds_Calinou.json,Calinou/scoop-games
 redream-dev.json,Calinou/scoop-games
@@ -6676,7 +6678,7 @@ SodaPlayer.json,dodorz/scoop
 cemu-dev_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 melonds_borger.json,borger/scoop-emulators
-redream-dev_borger.json,borger/scoop-emulators
+redream-dev.json,borger/scoop-emulators
 fceux.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
@@ -6711,7 +6713,7 @@ mgba-dev_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
-pcsx2-dev.json,borger/scoop-emulators
+pcsx2-dev_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
@@ -7133,7 +7135,7 @@ gof_akirco.json,akirco/aki-apps
 tomcat8_akirco.json,akirco/aki-apps
 touch_akirco.json,akirco/aki-apps
 yarn_akirco.json,akirco/aki-apps
-yuque.json,akirco/aki-apps
+yuque_akirco.json,akirco/aki-apps
 yq_akirco.json,akirco/aki-apps
 registry-finder_akirco.json,akirco/aki-apps
 scrcpy_akirco.json,akirco/aki-apps
@@ -7411,7 +7413,7 @@ lx-music-desktop-win7.json,DoveBoy/Apps
 shadowsocksr-hmbsbige-full.json,DoveBoy/Apps
 mpv-lazy.json,DoveBoy/Apps
 ytdlp-interface.json,DoveBoy/Apps
-freefilesync_DoveBoy.json,DoveBoy/Apps
+freefilesync.json,DoveBoy/Apps
 iwck_DoveBoy.json,DoveBoy/Apps
 everything-alpha_DoveBoy.json,DoveBoy/Apps
 bookget_DoveBoy.json,DoveBoy/Apps
@@ -8358,6 +8360,7 @@ jijidown.json,amorphobia/siku
 yahei-fira-icon-hybrid.json,amorphobia/siku
 idm-trial-reset.json,amorphobia/siku
 fido.json,amorphobia/siku
+clash-for-windows_amorphobia.json,amorphobia/siku
 hfsexplorer.json,amorphobia/siku
 wechatexporter.json,amorphobia/siku
 pijul_amorphobia.json,amorphobia/siku
@@ -8389,6 +8392,7 @@ qqplayer_amorphobia.json,amorphobia/siku
 double-finder.json,amorphobia/siku
 powercolorls.json,amorphobia/siku
 todesk_amorphobia.json,amorphobia/siku
+librime.json,amorphobia/siku
 rubick_amorphobia.json,amorphobia/siku
 qsv_amorphobia.json,amorphobia/siku
 tally-marks.json,amorphobia/siku
