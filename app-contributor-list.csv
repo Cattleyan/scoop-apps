@@ -1656,6 +1656,7 @@ cdogs-sdl.json,Calinou/scoop-games
 trenchbroom.json,Calinou/scoop-games
 rtcwcoop.json,Calinou/scoop-games
 urbanterror.json,Calinou/scoop-games
+ff-logs-uploader.json,Calinou/scoop-games
 applewin.json,Calinou/scoop-games
 shipwright.json,Calinou/scoop-games
 pacmc.json,Calinou/scoop-games
@@ -5879,7 +5880,7 @@ cemu_hermanjustnu.json,hermanjustnu/scoop-emulators
 fceux-dev.json,hermanjustnu/scoop-emulators
 mameui.json,hermanjustnu/scoop-emulators
 rpcs3_hermanjustnu.json,hermanjustnu/scoop-emulators
-ryujinx_hermanjustnu.json,hermanjustnu/scoop-emulators
+ryujinx.json,hermanjustnu/scoop-emulators
 hoxs64.json,hermanjustnu/scoop-emulators
 scummvm_hermanjustnu.json,hermanjustnu/scoop-emulators
 ppsspp-dev_hermanjustnu.json,hermanjustnu/scoop-emulators
@@ -6716,7 +6717,7 @@ mgba-dev_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
-pcsx2-dev_borger.json,borger/scoop-emulators
+pcsx2-dev.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
 redream_borger.json,borger/scoop-emulators
@@ -7469,6 +7470,7 @@ chromedriver-canary.json,DoveBoy/Apps
 youku.json,DoveBoy/Apps
 superrdp.json,DoveBoy/Apps
 zy-player_DoveBoy.json,DoveBoy/Apps
+escrcpy.json,DoveBoy/Apps
 libreoffice.json,DoveBoy/Apps
 captura_DoveBoy.json,DoveBoy/Apps
 termscp_DoveBoy.json,DoveBoy/Apps
@@ -7491,6 +7493,7 @@ nvm_DoveBoy.json,DoveBoy/Apps
 text-grab.json,DoveBoy/Apps
 jo_DoveBoy.json,DoveBoy/Apps
 clash-rev-compatible.json,DoveBoy/Apps
+so-novel.json,DoveBoy/Apps
 unblockneteasemusic.json,DoveBoy/Apps
 shadowsocksr-csharp.json,DoveBoy/Apps
 pdfarranger_DoveBoy.json,DoveBoy/Apps
@@ -7724,6 +7727,7 @@ clashxw.json,DoveBoy/Apps
 pansy.json,DoveBoy/Apps
 sed_DoveBoy.json,DoveBoy/Apps
 npm-completion_DoveBoy.json,DoveBoy/Apps
+escrcpy-portable.json,DoveBoy/Apps
 mpvconfigurator.json,DoveBoy/Apps
 fix-print-spooler.json,DoveBoy/Apps
 clash-nyanpasu-portable.json,DoveBoy/Apps
@@ -7776,7 +7780,7 @@ ipcalc_DoveBoy.json,DoveBoy/Apps
 wxdatviewerautoexportrust.json,DoveBoy/Apps
 cleanmywechat_DoveBoy.json,DoveBoy/Apps
 scoop-completion_DoveBoy.json,DoveBoy/Apps
-emeditor_DoveBoy.json,DoveBoy/Apps
+emeditor.json,DoveBoy/Apps
 weylus.json,DoveBoy/Apps
 qqlive_DoveBoy.json,DoveBoy/Apps
 scoop-search_DoveBoy.json,DoveBoy/Apps
@@ -7861,6 +7865,7 @@ qalculate.json,DoveBoy/Apps
 nanazip_DoveBoy.json,DoveBoy/Apps
 helix_DoveBoy.json,DoveBoy/Apps
 sox_DoveBoy.json,DoveBoy/Apps
+so-novel-with-jre.json,DoveBoy/Apps
 mitmproxy.json,DoveBoy/Apps
 transmission.json,DoveBoy/Apps
 sandboxie-plus-np_DoveBoy.json,DoveBoy/Apps
@@ -7881,7 +7886,7 @@ mihomo-compatible-go120.json,DoveBoy/Apps
 kotatogram.json,DoveBoy/Apps
 putty.json,DoveBoy/Apps
 upscayl.json,DoveBoy/Apps
-windterm_DoveBoy.json,DoveBoy/Apps
+windterm.json,DoveBoy/Apps
 sshwifty.json,DoveBoy/Apps
 sharex.json,DoveBoy/Apps
 sunloginclientsos.json,DoveBoy/Apps
@@ -9594,10 +9599,13 @@ TencentQQNT.json,AkariiinMKII/Scoop4kariiin
 Cinebench-R23.json,AkariiinMKII/Scoop4kariiin
 yuzu_AkariiinMKII.json,AkariiinMKII/Scoop4kariiin
 TwinkleTray.json,AkariiinMKII/Scoop4kariiin
+CrystalMark-Retro-Aoi.json,AkariiinMKII/Scoop4kariiin
 yuzu-pineapple.json,AkariiinMKII/Scoop4kariiin
 CrystalDiskInfo-Shizuku_AkariiinMKII.json,AkariiinMKII/Scoop4kariiin
+CrystalDiskMark-Shizuku_AkariiinMKII.json,AkariiinMKII/Scoop4kariiin
 Windows-screenFetch.json,AkariiinMKII/Scoop4kariiin
 link-plus.json,AkariiinMKII/Scoop4kariiin
+CrystalDiskMark-Aoi.json,AkariiinMKII/Scoop4kariiin
 renovate.json,mo-san/scoop-bucket
 __template.json,mo-san/scoop-bucket
 psshutdown_mo-san.json,mo-san/scoop-bucket
