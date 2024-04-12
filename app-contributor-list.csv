@@ -2630,6 +2630,7 @@ nodejs14.json,ScoopInstaller/Versions
 php70.json,ScoopInstaller/Versions
 winpython38cod.json,ScoopInstaller/Versions
 obs-studio-pre.json,ScoopInstaller/Versions
+spark33.json,ScoopInstaller/Versions
 windowsdesktop-runtime-6.0.json,ScoopInstaller/Versions
 pdfbox-alpha.json,ScoopInstaller/Versions
 influxdb1.json,ScoopInstaller/Versions
@@ -2675,6 +2676,7 @@ cuda7.0.json,ScoopInstaller/Versions
 dotnet-sdk-lts.json,ScoopInstaller/Versions
 orca3.json,ScoopInstaller/Versions
 godot-beta.json,ScoopInstaller/Versions
+doublecmd-beta.json,ScoopInstaller/Versions
 winget1.4.json,ScoopInstaller/Versions
 mingw-winlibs-llvm-ucrt.json,ScoopInstaller/Versions
 openssl1.json,ScoopInstaller/Versions
@@ -2728,6 +2730,7 @@ postgresql11.json,ScoopInstaller/Versions
 elasticsearch5.json,ScoopInstaller/Versions
 neovide-dev.json,ScoopInstaller/Versions
 vscode-insiders.json,ScoopInstaller/Versions
+obs-studio28.json,ScoopInstaller/Versions
 nodejs7.json,ScoopInstaller/Versions
 php71-xdebug.json,ScoopInstaller/Versions
 aria2-134.json,ScoopInstaller/Versions
@@ -4129,6 +4132,7 @@ terminal.icu.json,hoilc/scoop-lemon
 maye-lite.json,hoilc/scoop-lemon
 bookget.json,hoilc/scoop-lemon
 opscan.json,hoilc/scoop-lemon
+portr.json,hoilc/scoop-lemon
 jumppad.json,hoilc/scoop-lemon
 niconvert.json,hoilc/scoop-lemon
 perfview.json,hoilc/scoop-lemon
@@ -5813,6 +5817,7 @@ rstudio-2022.02.json,cderv/r-bucket
 tinitex.json,cderv/r-bucket
 rstudio-pro-preview.json,cderv/r-bucket
 fq_cderv.json,cderv/r-bucket
+sass-migrator.json,cderv/r-bucket
 rig.json,cderv/r-bucket
 rstudio-1.4.json,cderv/r-bucket
 rstudio-daily_cderv.json,cderv/r-bucket
@@ -5870,7 +5875,7 @@ melonds_hermanjustnu.json,hermanjustnu/scoop-emulators
 stella_hermanjustnu.json,hermanjustnu/scoop-emulators
 electrem.json,hermanjustnu/scoop-emulators
 mameui.json,hermanjustnu/scoop-emulators
-ryujinx.json,hermanjustnu/scoop-emulators
+ryujinx_hermanjustnu.json,hermanjustnu/scoop-emulators
 project64_hermanjustnu.json,hermanjustnu/scoop-emulators
 snes9x_hermanjustnu.json,hermanjustnu/scoop-emulators
 winuae.json,hermanjustnu/scoop-emulators
@@ -8030,7 +8035,7 @@ ddu.json,DoveBoy/Apps
 obs-studio-pre_DoveBoy.json,DoveBoy/Apps
 sudo_DoveBoy.json,DoveBoy/Apps
 brackets.json,DoveBoy/Apps
-wechat_DoveBoy.json,DoveBoy/Apps
+wechat.json,DoveBoy/Apps
 eartrumpet.json,DoveBoy/Apps
 picpick_DoveBoy.json,DoveBoy/Apps
 chromedriver-dev.json,DoveBoy/Apps
