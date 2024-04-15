@@ -2002,7 +2002,7 @@ vmware-workstation-pro.json,ivaquero/scoopet
 adrive.json,ivaquero/scoopet
 dingtalk_ivaquero.json,ivaquero/scoopet
 winrar.json,ivaquero/scoopet
-lx-music_ivaquero.json,ivaquero/scoopet
+lx-music.json,ivaquero/scoopet
 tim.json,ivaquero/scoopet
 libreoffice-cn.json,ivaquero/scoopet
 fishing-funds.json,ivaquero/scoopet
@@ -6719,7 +6719,7 @@ pcsx2_borger.json,borger/scoop-emulators
 scummvm-nightly_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
-mgba-dev_borger.json,borger/scoop-emulators
+mgba-dev.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
 vita3k_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
@@ -7536,7 +7536,7 @@ phpmyadmin.json,wzv5/ScoopBucket
 xnview.json,wzv5/ScoopBucket
 python-doc-zh-cn.json,wzv5/ScoopBucket
 applicationinspector.json,wzv5/ScoopBucket
-wechat.json,wzv5/ScoopBucket
+wechat_wzv5.json,wzv5/ScoopBucket
 overture_wzv5.json,wzv5/ScoopBucket
 pspad.json,wzv5/ScoopBucket
 inno-setup.json,wzv5/ScoopBucket
@@ -8045,7 +8045,7 @@ ddu.json,DoveBoy/Apps
 obs-studio-pre_DoveBoy.json,DoveBoy/Apps
 sudo_DoveBoy.json,DoveBoy/Apps
 brackets.json,DoveBoy/Apps
-wechat.json,DoveBoy/Apps
+wechat_DoveBoy.json,DoveBoy/Apps
 eartrumpet.json,DoveBoy/Apps
 picpick_DoveBoy.json,DoveBoy/Apps
 chromedriver-dev.json,DoveBoy/Apps
@@ -8970,6 +8970,7 @@ chromium-np.json,hu3rror/scoop-muggle
 auto-unlocker_hu3rror.json,hu3rror/scoop-muggle
 pot-desktop_hu3rror.json,hu3rror/scoop-muggle
 space-cli_hu3rror.json,hu3rror/scoop-muggle
+run-hidden-console.json,hu3rror/scoop-muggle
 bootice_hu3rror.json,hu3rror/scoop-muggle
 watt-toolkit.json,hu3rror/scoop-muggle
 simpread-synchelper.json,hu3rror/scoop-muggle
