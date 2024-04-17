@@ -4171,7 +4171,7 @@ wpinternals.json,hoilc/scoop-lemon
 soundswitch.json,hoilc/scoop-lemon
 myqrcodescanner.json,hoilc/scoop-lemon
 trzsz_hoilc.json,hoilc/scoop-lemon
-another-redis-desktop-manager.json,hoilc/scoop-lemon
+another-redis-desktop-manager_hoilc.json,hoilc/scoop-lemon
 nebula-importer.json,hoilc/scoop-lemon
 jellyfin-media-player.json,hoilc/scoop-lemon
 dooit.json,hoilc/scoop-lemon
@@ -5876,7 +5876,7 @@ dosbox_hermanjustnu.json,hermanjustnu/scoop-emulators
 pcsx2-sse4-vxwidgets.json,hermanjustnu/scoop-emulators
 mgba_hermanjustnu.json,hermanjustnu/scoop-emulators
 mesen-s_hermanjustnu.json,hermanjustnu/scoop-emulators
-redream-dev_hermanjustnu.json,hermanjustnu/scoop-emulators
+redream-dev.json,hermanjustnu/scoop-emulators
 ares_hermanjustnu.json,hermanjustnu/scoop-emulators
 pcsx2-avx2-vxwidgets.json,hermanjustnu/scoop-emulators
 b-em.json,hermanjustnu/scoop-emulators
@@ -6710,15 +6710,15 @@ desmume.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 visualboyadvance-m_borger.json,borger/scoop-emulators
 ps3-system-software_borger.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
 dolphin-beta_borger.json,borger/scoop-emulators
 xenia_borger.json,borger/scoop-emulators
-pcsx2-dev_borger.json,borger/scoop-emulators
+pcsx2-dev.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
 scummvm-nightly_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
-rpcs3.json,borger/scoop-emulators
+rpcs3_borger.json,borger/scoop-emulators
 mgba-dev_borger.json,borger/scoop-emulators
 mame_borger.json,borger/scoop-emulators
 vita3k_borger.json,borger/scoop-emulators
@@ -6732,7 +6732,7 @@ melonds_borger.json,borger/scoop-emulators
 ryujinx_borger.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
-duckstation.json,borger/scoop-emulators
+duckstation_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
 ppsspp_borger.json,borger/scoop-emulators
@@ -7536,7 +7536,7 @@ phpmyadmin.json,wzv5/ScoopBucket
 xnview.json,wzv5/ScoopBucket
 python-doc-zh-cn.json,wzv5/ScoopBucket
 applicationinspector.json,wzv5/ScoopBucket
-wechat_wzv5.json,wzv5/ScoopBucket
+wechat.json,wzv5/ScoopBucket
 overture_wzv5.json,wzv5/ScoopBucket
 pspad.json,wzv5/ScoopBucket
 inno-setup.json,wzv5/ScoopBucket
@@ -9615,7 +9615,9 @@ microsoftedge_beerpiss.json,beerpiss/scoop-bucket
 adguardhome.json,beerpiss/scoop-bucket
 adguardhome-beta.json,beerpiss/scoop-bucket
 ntfs2btrfs_beerpiss.json,beerpiss/scoop-bucket
+zalo.json,beerpiss/scoop-bucket
 sl-h.json,beerpiss/scoop-bucket
+beeper.json,beerpiss/scoop-bucket
 rawcap-old.json,beerpiss/scoop-bucket
 susplayer.json,beerpiss/scoop-bucket
 majdata.json,beerpiss/scoop-bucket
