@@ -3382,6 +3382,7 @@ cppcryptfsctl_hoilc.json,hoilc/scoop-lemon
 cleanmywechat.json,hoilc/scoop-lemon
 djvutoy.json,hoilc/scoop-lemon
 assetripper.json,hoilc/scoop-lemon
+emby-plugin-metatube.json,hoilc/scoop-lemon
 gaphor.json,hoilc/scoop-lemon
 piping-server-rust.json,hoilc/scoop-lemon
 jprq.json,hoilc/scoop-lemon
@@ -3873,6 +3874,7 @@ arrowdl.json,hoilc/scoop-lemon
 pineapple-pictures.json,hoilc/scoop-lemon
 cmix.json,hoilc/scoop-lemon
 usbeam-consoles-dns.json,hoilc/scoop-lemon
+stream-music.json,hoilc/scoop-lemon
 plebbit-cli.json,hoilc/scoop-lemon
 sendme.json,hoilc/scoop-lemon
 clash-speedtest.json,hoilc/scoop-lemon
@@ -5946,7 +5948,7 @@ flycast_hermanjustnu.json,hermanjustnu/scoop-emulators
 mameui.json,hermanjustnu/scoop-emulators
 bsnes-nightly.json,hermanjustnu/scoop-emulators
 fceux-interim.json,hermanjustnu/scoop-emulators
-steam-rom-manager.json,hermanjustnu/scoop-emulators
+steam-rom-manager_hermanjustnu.json,hermanjustnu/scoop-emulators
 fceux-dev.json,hermanjustnu/scoop-emulators
 desmume.json,hermanjustnu/scoop-emulators
 fceux-qt.json,hermanjustnu/scoop-emulators
@@ -6401,7 +6403,7 @@ Rolan.json,dodorz/scoop
 pngout.json,dodorz/scoop
 PandaOCRPro.json,dodorz/scoop
 RuckZuck-CLI.json,dodorz/scoop
-FastCopy.json,dodorz/scoop
+FastCopy_dodorz.json,dodorz/scoop
 TextFilter.json,dodorz/scoop
 autojump-rs.json,dodorz/scoop
 DeaDBeeF.json,dodorz/scoop
@@ -6806,7 +6808,6 @@ xemu_borger.json,borger/scoop-emulators
 mgba-dev_borger.json,borger/scoop-emulators
 flycast_borger.json,borger/scoop-emulators
 tegra-rcm-gui.json,borger/scoop-emulators
-steam-rom-manager_borger.json,borger/scoop-emulators
 desmume.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
 sameboy_borger.json,borger/scoop-emulators
@@ -6832,7 +6833,7 @@ ppsspp_borger.json,borger/scoop-emulators
 vita3k_borger.json,borger/scoop-emulators
 simple64_borger.json,borger/scoop-emulators
 mgba_borger.json,borger/scoop-emulators
-pcsx2-dev.json,borger/scoop-emulators
+pcsx2-dev_borger.json,borger/scoop-emulators
 bsnes_borger.json,borger/scoop-emulators
 trojan-go_Qv2ray.json,Qv2ray/mochi
 qv2ray-plugin-command_Qv2ray.json,Qv2ray/mochi
@@ -7110,6 +7111,7 @@ newfiletime_ViCrack.json,ViCrack/scoop-bucket
 mdut.json,ViCrack/scoop-bucket
 observerward.json,ViCrack/scoop-bucket
 1remote.json,ViCrack/scoop-bucket
+godzilla_ekp.json,ViCrack/scoop-bucket
 bluelife-keyfreeze.json,ViCrack/scoop-bucket
 notepad--.json,ViCrack/scoop-bucket
 gda.json,ViCrack/scoop-bucket
@@ -7691,7 +7693,7 @@ regex-tool.json,wzv5/ScoopBucket
 applicationinspector.json,wzv5/ScoopBucket
 overture_wzv5.json,wzv5/ScoopBucket
 nattypetester_wzv5.json,wzv5/ScoopBucket
-utools_wzv5.json,wzv5/ScoopBucket
+utools.json,wzv5/ScoopBucket
 douyu.json,wzv5/ScoopBucket
 qqmusic_wzv5.json,wzv5/ScoopBucket
 winsw_wzv5.json,wzv5/ScoopBucket
@@ -8108,7 +8110,7 @@ ntrace-core.json,DoveBoy/Apps
 ss.json,DoveBoy/Apps
 snappy-driver-installer-origin.json,DoveBoy/Apps
 winscp_DoveBoy.json,DoveBoy/Apps
-fastcopy.json,DoveBoy/Apps
+fastcopy_DoveBoy.json,DoveBoy/Apps
 xx-net-win7.json,DoveBoy/Apps
 context-menu-manager.json,DoveBoy/Apps
 tabby_DoveBoy.json,DoveBoy/Apps
@@ -8492,6 +8494,7 @@ windows-update-manager.json,naderi/scoop-bucket
 pycharm-portable.json,naderi/scoop-bucket
 firefox-portable-fa.json,naderi/scoop-bucket
 mdview.json,naderi/scoop-bucket
+snipaste_naderi.json,naderi/scoop-bucket
 portable-registrator.json,naderi/scoop-bucket
 tabby-portable.json,naderi/scoop-bucket
 mpc-hc-portable.json,naderi/scoop-bucket
@@ -8622,7 +8625,7 @@ screenshot-captor.json,naderi/scoop-bucket
 firefox-portable-de.json,naderi/scoop-bucket
 mediathekview.json,naderi/scoop-bucket
 veracrypt-portable.json,naderi/scoop-bucket
-affine_naderi.json,naderi/scoop-bucket
+affine.json,naderi/scoop-bucket
 xnview-classic.json,naderi/scoop-bucket
 wxmedit_naderi.json,naderi/scoop-bucket
 cwtch.json,naderi/scoop-bucket
@@ -9777,6 +9780,7 @@ ghz.json,aliesbelik/poldi
 unfurl.json,aliesbelik/poldi
 oxker.json,aliesbelik/poldi
 tanka_aliesbelik.json,aliesbelik/poldi
+qv.json,aliesbelik/poldi
 httpx_aliesbelik.json,aliesbelik/poldi
 dnsping.json,aliesbelik/poldi
 assh.json,aliesbelik/poldi
