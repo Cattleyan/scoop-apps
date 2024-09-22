@@ -7018,7 +7018,7 @@ Sizer.json,dodorz/scoop
 OORegEditor.json,dodorz/scoop
 QTranslate.json,dodorz/scoop
 Shortcut_dodorz.json,dodorz/scoop
-webd.json,dodorz/scoop
+webd_dodorz.json,dodorz/scoop
 XSearch.json,dodorz/scoop
 WinGPG.json,dodorz/scoop
 NetUsers_dodorz.json,dodorz/scoop
@@ -7106,7 +7106,7 @@ redream-dev_borger.json,borger/scoop-emulators
 ares_borger.json,borger/scoop-emulators
 rpcs3_borger.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
-dolphin-dev_borger.json,borger/scoop-emulators
+dolphin-dev.json,borger/scoop-emulators
 flycast_borger.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
@@ -8246,7 +8246,7 @@ memreduct_DoveBoy.json,DoveBoy/Apps
 snipaste_DoveBoy.json,DoveBoy/Apps
 weylus.json,DoveBoy/Apps
 gsudo_DoveBoy.json,DoveBoy/Apps
-ecopaste_DoveBoy.json,DoveBoy/Apps
+ecopaste.json,DoveBoy/Apps
 irfanview-lean.json,DoveBoy/Apps
 backup-start-menu-layout.json,DoveBoy/Apps
 sandboxie-classic-portable.json,DoveBoy/Apps
@@ -8347,7 +8347,7 @@ honeyview.json,DoveBoy/Apps
 gallery-dl_DoveBoy.json,DoveBoy/Apps
 imageglass.json,DoveBoy/Apps
 lx-music-desktop_DoveBoy.json,DoveBoy/Apps
-gopeed.json,DoveBoy/Apps
+gopeed_DoveBoy.json,DoveBoy/Apps
 revokemsgpatcher-nightly.json,DoveBoy/Apps
 gnupg_DoveBoy.json,DoveBoy/Apps
 iptvnator.json,DoveBoy/Apps
@@ -10045,6 +10045,7 @@ thorium.json,brian6932/dank-scoop
 simple-image-compare.json,brian6932/dank-scoop
 chatterino7-portable.json,brian6932/dank-scoop
 fcc.json,brian6932/dank-scoop
+vmware-workstation-pro-np.json,brian6932/dank-scoop
 gql.json,brian6932/dank-scoop
 minify-js.json,brian6932/dank-scoop
 KryptorGUI.json,brian6932/dank-scoop
@@ -11413,7 +11414,7 @@ sl.json,beer-psi/scoop-bucket
 aidoku-cli.json,beer-psi/scoop-bucket
 windowstoolbox-head.json,beer-psi/scoop-bucket
 sound-of-sorting.json,beer-psi/scoop-bucket
-stash-dev_beer-psi.json,beer-psi/scoop-bucket
+stash-dev.json,beer-psi/scoop-bucket
 peupdate.json,beer-psi/scoop-bucket
 onetrueawk.json,beer-psi/scoop-bucket
 adguardhome_beer-psi.json,beer-psi/scoop-bucket
@@ -11833,7 +11834,7 @@ shellrunas_mo-san.json,mo-san/scoop-bucket
 notmyfault_mo-san.json,mo-san/scoop-bucket
 renovate.json,mo-san/scoop-bucket
 psst.json,Small-Ku/turbo-bucket
-dorion.json,Small-Ku/turbo-bucket
+dorion_Small-Ku.json,Small-Ku/turbo-bucket
 coqui-stt.json,Small-Ku/turbo-bucket
 jxl-winthumb_Small-Ku.json,Small-Ku/turbo-bucket
 reshade-addon-dll.json,Small-Ku/turbo-bucket
