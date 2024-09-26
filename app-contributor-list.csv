@@ -2427,8 +2427,7 @@ qq-nt.json,ivaquero/scoopet
 cajviewer_ivaquero.json,ivaquero/scoopet
 aboboo.json,ivaquero/scoopet
 subrenamer.json,ivaquero/scoopet
-activitiywatch.json,ivaquero/scoopet
-utools_ivaquero.json,ivaquero/scoopet
+utools.json,ivaquero/scoopet
 scihubeva.json,ivaquero/scoopet
 fishing-funds.json,ivaquero/scoopet
 kingdraw.json,ivaquero/scoopet
@@ -6422,6 +6421,7 @@ Win32Spy.json,dodorz/scoop
 Jan_dodorz.json,dodorz/scoop
 Umi-OCR-Paddle.json,dodorz/scoop
 jsonui.json,dodorz/scoop
+Inpaint-np.json,dodorz/scoop
 UnrealCommander.json,dodorz/scoop
 CCEnhancer.json,dodorz/scoop
 FreeCAD.json,dodorz/scoop
@@ -6998,6 +6998,7 @@ DesktopOK.json,dodorz/scoop
 Oggenc.json,dodorz/scoop
 Npackd.json,dodorz/scoop
 CPod.json,dodorz/scoop
+CutyCapt.json,dodorz/scoop
 StylePix.json,dodorz/scoop
 LMStudio.json,dodorz/scoop
 Zen-Browser.json,dodorz/scoop
@@ -7054,7 +7055,6 @@ adobe-source-han-sans-cn-fonts.json,dodorz/scoop
 TesseractData-cn.json,dodorz/scoop
 Graviton.json,dodorz/scoop
 DocFetcher.json,dodorz/scoop
-Inpaint.json,dodorz/scoop
 DarkRoom.json,dodorz/scoop
 AntRenamer.json,dodorz/scoop
 pTeX-NG.json,dodorz/scoop
@@ -7101,8 +7101,8 @@ xenia-canary_borger.json,borger/scoop-emulators
 retroarch_borger.json,borger/scoop-emulators
 xemu_borger.json,borger/scoop-emulators
 cxbx-reloaded_borger.json,borger/scoop-emulators
-pcsx2-dev_borger.json,borger/scoop-emulators
-duckstation-preview_borger.json,borger/scoop-emulators
+pcsx2-dev.json,borger/scoop-emulators
+duckstation-preview.json,borger/scoop-emulators
 duckstation_borger.json,borger/scoop-emulators
 scummvm-nightly_borger.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
@@ -8130,7 +8130,7 @@ MDict_zhoujin7.json,zhoujin7/tomato
 WinSCP_zhoujin7.json,zhoujin7/tomato
 PhotoFiltre7.json,zhoujin7/tomato
 maven_zhoujin7.json,zhoujin7/tomato
-HBuilderX_zhoujin7.json,zhoujin7/tomato
+HBuilderX.json,zhoujin7/tomato
 zipkin-dependencies.json,zhoujin7/tomato
 HBuilderX-Full-Alpha.json,zhoujin7/tomato
 ActiveMQ-Artemis.json,zhoujin7/tomato
@@ -11799,7 +11799,7 @@ zluda.json,Small-Ku/turbo-bucket
 compressonator.json,Small-Ku/turbo-bucket
 packwiz.json,Small-Ku/turbo-bucket
 source-han-sans-vf-ttc.json,Small-Ku/turbo-bucket
-opencc.json,Small-Ku/turbo-bucket
+opencc_Small-Ku.json,Small-Ku/turbo-bucket
 gpu-z-portable.json,Small-Ku/turbo-bucket
 reshade-addon.json,Small-Ku/turbo-bucket
 yae-achievement.json,Small-Ku/turbo-bucket
