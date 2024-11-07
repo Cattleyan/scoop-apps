@@ -5,11 +5,11 @@
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://www.diskgenius.com/dyna_download/?software=DGEng5611580_x64.zip",
+            "url": "https://download2.eassos.com/DGEng5611580_x64.zip",
             "hash": "4fef569e461bc81746da5569771f78d08acfcfedc37f984729c34129c52370da"
         },
         "32bit": {
-            "url": "https://www.diskgenius.com/dyna_download/?software=DGEng5611580_x86.zip",
+            "url": "https://download2.eassos.com/DGEng5611580_x86.zip",
             "hash": "fb49191c1a4e2df1a676288e483b767d8766cddf34a17beb255d0bb8239c2c86"
         }
     },
@@ -24,16 +24,16 @@
     ],
     "persist": "Options.ini",
     "checkver": {
-        "url": "https://internal.eassos.com/update/diskgenius/update.php",
-        "regex": "\\[([\\d.]+)\\]"
+        "url": "https://www.diskgenius.com/download.php",
+        "regex": "Version: ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.diskgenius.com/dyna_download/?software=DGEng$cleanVersion_x64.zip"
+                "url": "https://download2.eassos.com/DGEng$cleanVersion_x64.zip"
             },
             "32bit": {
-                "url": "https://www.diskgenius.com/dyna_download/?software=DGEng$cleanVersion_x86.zip"
+                "url": "https://download2.eassos.com/DGEng$cleanVersion_x86.zip"
             }
         }
     }
