@@ -6622,6 +6622,7 @@ XDown_dodorz.json,dodorz/scoop
 BaiduCDP.json,dodorz/scoop
 XpdfReader.json,dodorz/scoop
 llama.cpp-avx512.json,dodorz/scoop
+ResophNotes.json,dodorz/scoop
 elevate.json,dodorz/scoop
 ClipAngel.json,dodorz/scoop
 TCC-RT.json,dodorz/scoop
@@ -7243,6 +7244,7 @@ behinder.json,ViCrack/scoop-bucket
 blueteamtools.json,ViCrack/scoop-bucket
 notify.json,ViCrack/scoop-bucket
 transfer.json,ViCrack/scoop-bucket
+7z-build-nsis.json,ViCrack/scoop-bucket
 airfly.json,ViCrack/scoop-bucket
 rubick.json,ViCrack/scoop-bucket
 winmemorycleaner_ViCrack.json,ViCrack/scoop-bucket
@@ -8570,7 +8572,7 @@ subtitle-ass-shifter.json,DoveBoy/Apps
 openssh_DoveBoy.json,DoveBoy/Apps
 computerlock.json,DoveBoy/Apps
 lx-music-desktop-win7.json,DoveBoy/Apps
-bookget_DoveBoy.json,DoveBoy/Apps
+bookget.json,DoveBoy/Apps
 min.json,DoveBoy/Apps
 googletranslateipcheck.json,DoveBoy/Apps
 treesize_DoveBoy.json,DoveBoy/Apps
@@ -10837,6 +10839,7 @@ qimgv-video.json,cc713/ownscoop
 screentogif_cc713.json,cc713/ownscoop
 marktext-dev.json,cc713/ownscoop
 diskgeniusCN.json,cc713/ownscoop
+zyfun.json,cc713/ownscoop
 cudatext-addons.json,cc713/ownscoop
 LunaTranslator_cc713.json,cc713/ownscoop
 Irfanview-plugins.json,cc713/ownscoop
@@ -10891,7 +10894,6 @@ gitextensions.json,cc713/ownscoop
 rpcs3-dev.json,cc713/ownscoop
 gitg.json,cc713/ownscoop
 Weasel_cc713.json,cc713/ownscoop
-qbittorrent-enhanced_cc713.json,cc713/ownscoop
 PhotoQt.json,cc713/ownscoop
 cinebench20.json,aoisummer/scoop-bucket
 kiwix.json,aoisummer/scoop-bucket
