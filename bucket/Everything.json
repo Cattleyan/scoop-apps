@@ -1,31 +1,21 @@
 {
-    "homepage": "https://www.voidtools.com",
+    "version": "1.4.1.986",
     "description": "Locate files and folders by name instantly.",
+    "homepage": "https://www.voidtools.com",
     "license": "MIT",
-    "version": "1.4.1.1026",
     "architecture": {
         "64bit": {
-            "url": "https://www.voidtools.com/Everything-1.4.1.1026.x64.zip",
-            "hash": "8efd75d62eaf73d616ffc1de7ba1e88abe1742dce800aa6b4ddb81e11e5fed79"
-        },
-        "32bit": {
-            "url": "https://www.voidtools.com/Everything-1.4.1.1026.x86.zip",
-            "hash": "297196b7a8eff8c31e2644e258d7f62bdc33c0270c214dd7f6635df9c84f9dbe"
+            "url": "https://sourceforge.net/projects/tomato-extra/files/apps/Everything-1.4.1.986.x64.zip",
+            "hash": "d5c560ffa25c8836fd76a897b5754339ca4ce06fc7c15a7a4a73983d8bb87bcb"
         }
-    },
-    "installer": {
-        "script": "& \"$dir\\Everything.exe\" -install-service"
     },
     "pre_install": [
         "ensure \"$persist_dir\" | Out-Null",
-        "if (!(Test-Path \"$persist_dir\\Everything.ini\")) { & \"$dir\\Everything.exe\" -install-config null }",
-        "Get-ChildItem \"$persist_dir\\*\" -Include 'Everything.ini', 'Bookmarks.csv', 'Filters.csv', 'Run History.csv', 'Search History.csv', 'debug.log', 'Errorlog.txt', 'Logs', 'HTTP Server' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue"
+        "if (!(Test-Path \"$persist_dir\\Everything.ini\")) { Invoke-ExternalCommand \"$dir\\Everything.exe\" -Args @('-install-config null') | Out-Null }",
+        "Get-ChildItem \"$persist_dir\\*\" -Include 'Everything.db', 'Bookmarks.csv', 'Everything.ini' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue"
     ],
     "uninstaller": {
-        "script": [
-            "& \"$dir\\Everything.exe\" -uninstall-service",
-            "Get-ChildItem \"$dir\\*\" -Include 'Everything.ini', 'Bookmarks.csv', 'Filters.csv', 'Run History.csv', 'Search History.csv', 'debug.log', 'Errorlog.txt', 'Logs', 'HTTP Server'| Copy-Item -Destination \"$persist_dir\" -ErrorAction SilentlyContinue -Force"
-        ]
+        "script": "Get-ChildItem \"$dir\\*\" -Include 'Everything.ini', 'Everything.db', 'Bookmarks.csv' | Copy-Item -Destination \"$persist_dir\" -ErrorAction SilentlyContinue -Force"
     },
     "bin": "Everything.exe",
     "shortcuts": [
@@ -34,25 +24,14 @@
             "Everything"
         ]
     ],
-    "persist": [
-        "Everything.ini",
-        "Bookmarks.csv",
-        "Filters.csv",
-        "Run History.csv",
-        "Search History.csv",
-        "debug.log",
-        "Errorlog.txt",
-        "Logs",
-        "HTTP Server"
-    ],
-    "checkver": "Download Everything ([\\d.]+)",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/tomato-extra/files/apps/",
+        "regex": "Everything-([\\d\\.]+)\\.x64\\.zip"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.voidtools.com/Everything-$version.x64.zip"
-            },
-            "32bit": {
-                "url": "https://www.voidtools.com/Everything-$version.x86.zip"
+                "url": "https://sourceforge.net/projects/tomato-extra/files/apps/Everything-$version.x64.zip"
             }
         },
         "hash": {
