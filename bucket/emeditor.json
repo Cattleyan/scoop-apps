@@ -1,14 +1,31 @@
 {
-    "version": "24.4.1",
-    "description": "world’s fastest text editor.",
-    "homepage": "https://www.emeditor.com/download/",
-    "license": "BSD-3-Clause",
-    "url": "https://xmod-my.sharepoint.cn/:u:/g/personal/admin_xmod_partner_onmschina_cn/EbEr-rzAQuBKm4CcIJfeSTABZrIP44Eq6hX6M89R6eJhLA?download=1#/dl.7z",
+    "version": "24.4.2",
+    "description": "A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
+    "homepage": "https://www.emeditor.com/",
+    "license": "Shareware",
+    "architecture": {
+        "64bit": {
+            "url": "https://emeditor.blob.core.windows.net/emed64_24.4.2_portable.zip",
+            "hash": "041db1f8053be38fc0b2de169b69b9fee6dc58379683e1cc80d2b936b6820a0c"
+        },
+        "32bit": {
+            "url": "https://emeditor.blob.core.windows.net/emed32_24.4.2_portable.zip",
+            "hash": "7babe3a8eade290acdf12f9a2d4f898f1ab0c0514dace4e951c8935cc298bea4"
+        }
+    },
     "pre_install": [
-        "if(!(Test-Path \"$persist_dir\\eeCommon.ini\")) { Add-Content \"$dir\\eeCommon.ini\" $null }",
-        "if(!(Test-Path \"$persist_dir\\eeConfig.ini\")) { Add-Content \"$dir\\eeConfig.ini\" $null }",
-        "if(!(Test-Path \"$persist_dir\\eeLM.ini\")) { Add-Content \"$dir\\eeLM.ini\" $null }",
-        "if(!(Test-Path \"$persist_dir\\eePlugins.ini\")) { Add-Content \"$dir\\eePlugins.ini\" $null }"
+        "$manifest.persist | ForEach-Object {",
+        "    if ([io.path]::GetExtension($_)) {",
+        "        if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null }",
+        "    }",
+        "}"
+    ],
+    "bin": "EmEditor.exe",
+    "shortcuts": [
+        [
+            "EmEditor.exe",
+            "EmEditor"
+        ]
     ],
     "persist": [
         "eeCommon.ini",
@@ -16,10 +33,18 @@
         "eeLM.ini",
         "eePlugins.ini"
     ],
-    "shortcuts": [
-        [
-            "EmEditor.exe",
-            "EmEditor"
-        ]
-    ]
+    "checkver": {
+        "url": "https://www.emeditor.com/",
+        "regex": "EmEditor v([\\d.]+) released"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://emeditor.blob.core.windows.net/emed64_$version_portable.zip"
+            },
+            "32bit": {
+                "url": "https://emeditor.blob.core.windows.net/emed32_$version_portable.zip"
+            }
+        }
+    }
 }
