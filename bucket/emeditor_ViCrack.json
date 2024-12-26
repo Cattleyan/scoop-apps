@@ -5,11 +5,11 @@
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "https://emeditor.blob.core.windows.net/emed64_24.5.1_portable.zip",
+            "url": "https://download.emeditor.info/emed64_24.5.1_portable.zip",
             "hash": "0a82c35f6304b904e0ecb63765ea793af99618e810bda55a536ad8bdcffa86f4"
         },
         "32bit": {
-            "url": "https://emeditor.blob.core.windows.net/emed32_24.5.1_portable.zip",
+            "url": "https://download.emeditor.info/emed32_24.5.1_portable.zip",
             "hash": "de0b2735757dd439e920a8d136733b944bd8ffbbc971cbd8676065b0fe0d9058"
         }
     },
@@ -20,6 +20,7 @@
         "    }",
         "}"
     ],
+    "notes": " 学习码: DMAZM-WHY52-AX222-ZQJXN-79JXH ; 添加右键菜单: 打开顶部菜单的工具 > 自定义，选择“快捷方式”这个Tab，点“更多快捷方式...”按钮 ",
     "bin": "EmEditor.exe",
     "shortcuts": [
         [
@@ -31,19 +32,20 @@
         "eeCommon.ini",
         "eeConfig.ini",
         "eeLM.ini",
-        "eePlugins.ini"
+        "eePlugins.ini",
+        "AppData"
     ],
     "checkver": {
-        "url": "https://www.emeditor.com/",
-        "regex": "EmEditor v([\\d.]+) released"
+        "url": "https://zh-cn.emeditor.com/emeditor-core/",
+        "regex": "v([\\d.]+) "
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://emeditor.blob.core.windows.net/emed64_$version_portable.zip"
+                "url": "https://download.emeditor.info/emed64_$version_portable.zip"
             },
             "32bit": {
-                "url": "https://emeditor.blob.core.windows.net/emed32_$version_portable.zip"
+                "url": "https://download.emeditor.info/emed32_$version_portable.zip"
             }
         }
     }
