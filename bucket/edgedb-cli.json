@@ -1,12 +1,12 @@
 {
-    "version": "6.1.2",
+    "version": "7.0.2",
     "description": "Command-line tools for EdgeDB.",
     "homepage": "https://docs.edgedb.com/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc/edgedb-cli-6.1.2+02c2b9d.exe#/edgedb.exe",
-            "hash": "ebd55caf96004b92d2a77a447bc6a22661dd427688d5993df58ccf77cf00d59f"
+            "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc/gel-cli-7.0.2+ecab0da.exe#/edgedb.exe",
+            "hash": "9ac506195d0fc8ce67f787b4dc56e0dec7511d085ba9910dee68b6da4995461e"
         }
     },
     "bin": "edgedb.exe",
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc/edgedb-cli-$version+$matchCommit.exe#/edgedb.exe"
+                "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc/gel-cli-$version+$matchCommit.exe#/edgedb.exe"
             }
         }
     }
