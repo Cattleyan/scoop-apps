@@ -13,6 +13,12 @@
             "hash": "dc7696b2764b74c5567fe7397dc56f82787313bbbb21487f519809fa872db35c"
         }
     },
+    "post_install": [
+        "if (!(Test-Path \"$persist_dir\\.config\\PORTABLE\")) {",
+        "  New-Item \"$persist_dir\\.config\\PORTABLE\" -ItemType File | Out-Null",
+        "}",
+        "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall.exe\" -Force -Recurse"
+    ],
     "shortcuts": [
         [
             "clash-verge.exe",
@@ -20,12 +26,6 @@
         ]
     ],
     "persist": ".config",
-    "post_install": [
-        "# https://github.com/clash-verge-rev/clash-verge-rev/issues/21#issuecomment-1097467046",
-        "if (!(Test-Path \"$persist_dir\\.config\\PORTABLE\")) {",
-        "    New-Item -Path \"$persist_dir\\.config\\PORTABLE\" -ItemType file | Out-Null",
-        "}"
-    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
