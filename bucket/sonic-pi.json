@@ -1,31 +1,21 @@
 {
-    "description": "The Live Coding Music Synth for Everyone",
-    "homepage": "https://github.com/samaaron/sonic-pi",
-    "version": "3.3.1",
-    "license": {
-        "identifier": "MIT,GPL3.0,...",
-        "url": "https://github.com/samaaron/sonic-pi/blob/master/LICENSE.md"
+    "version": "4.5.1",
+    "description": "Sonic Pi is a code-based music creation and performance tool.",
+    "homepage": "https://sonic-pi.net/",
+    "license": "MIT",
+    "url": "https://sonic-pi.net/files/releases/v4.5.1/Sonic-Pi-for-Win-x64-v4-5-1.msi",
+    "hash": "6caae70cd6c6c289c8b3a4a368edaff76f5e513989ece5ff4f5d77acf3c7ed7b",
+    "shortcuts": [
+        [
+            "PFiles\\Sonic Pi\\app\\gui\\qt\\build\\Release\\sonic-pi.exe",
+            "Sonic Pi"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "github": "https://github.com/sonic-pi-net/sonic-pi"
     },
-    "url": "https://sonic-pi.net/files/releases/v3.3.1/Sonic-Pi-for-Win-Portable-v3.3.1.paf.exe#/dl.7z",
-    "hash": "150213dd8e8dbe35fcc3a6ac984f8c23326ef5566f80d0cf976697a582f8fbe3",
-    "bin": [
-        [
-            "SonicPiPortable.exe",
-            "SonicPi"
-        ]
-    ],
-    "ShortCuts": [
-        [
-            "SonicPiPortable.exe",
-            "SonicPi"
-        ]
-    ],
-    "checkver": "github",
     "autoupdate": {
-        "url": "https://sonic-pi.net/files/releases/v$version/Sonic-Pi-for-Win-Portable-v$version.paf.exe#/dl.7z",
-        "hash": {
-            "find": "SHA256\\s+([a-fA-F\\d]{64})",
-            "url": "$baseurl/Sonic-Pi-for-Win-Portable-v$version.paf-hashes.txt"
-        }
+        "url": "https://sonic-pi.net/files/releases/v$version/Sonic-Pi-for-Win-x64-v$dashVersion.msi"
     }
 }
