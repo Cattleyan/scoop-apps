@@ -1,60 +1,66 @@
 {
     "version": "1.2.2",
-    "description": "🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.",
+    "description": "🍒 Cherry Studio is a desktop client that supports for multiple LLM providers",
     "homepage": "https://cherry-ai.com/",
     "license": {
         "identifier": "Apache-2.0",
-        "url": "https://github.com/CherryHQ/cherry-studio/blob/main/LICENSE"
+        "url": "https://github.com/CherryHQ/cherry-studio/raw/refs/heads/main/LICENSE"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.2.2/Cherry-Studio-1.2.2-x64-setup.exe#/dl.7z",
-            "hash": "sha512:17afb282a9d48fd65c064f3c7dd53868aacf66bebf52bcb91309769009f5aea45355a0ae5ad1af91329a9ba19665c4989d84626534b84b97235ae5855fc6bcba",
-            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            "url": "https://gitcode.com/CherryHQ/cherry-studio/releases/download/v1.2.2/Cherry-Studio-1.2.2-x64-setup.exe#/dl.7z",
+            "hash": "72c9b864a1c65d7c0fa7bccd5bee76385de76e096d83949a267615d2b49853e8"
         },
         "arm64": {
-            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.2.2/Cherry-Studio-1.2.2-arm64-setup.exe#/dl.7z",
-            "hash": "461110825f38d17b2be1cc97b377f7e859a94cc7de9888c03d59bec2f309bd3a",
-            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\""
+            "url": "https://gitcode.com/CherryHQ/cherry-studio/releases/download/v1.2.2/Cherry-Studio-1.2.2-arm64-setup.exe#/dl.7z",
+            "hash": "461110825f38d17b2be1cc97b377f7e859a94cc7de9888c03d59bec2f309bd3a"
         }
     },
+    "installer": {
+        "script": [
+            "Get-ChildItem \"$dir\\`$PLUGINSDIR\\\" 'app-*.7z' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -DestinationPath \"$dir\\\" -Removal",
+            "$appDataPath = \"$env:APPDATA\\CherryStudio\"",
+            "$persistPath = \"$persist_dir\\CherryStudio\"",
+            "if (-Not (Test-Path $persistPath)) {",
+            "    New-Item -Path \"$persistPath\" -ItemType Directory | Out-Null",
+            "    if (Test-Path $appDataPath) {",
+            "        Write-Host -NoNewline \"\nCopying existing data...\"",
+            "        Copy-Item \"$appDataPath\\*\" \"$persistPath\" -Recurse -Force",
+            "    }",
+            "}",
+            "if (Test-Path $appDataPath) {",
+            "    Remove-Item $appDataPath -Recurse -Force | Out-Null",
+            "}",
+            "New-Item -ItemType Junction -Path \"$appDataPath\" -Target \"$persistPath\" | Out-Null"
+        ]
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
+    "notes": "You'd better turn off update detection in Settings->About Us in Cherry Studio and use scoop to manage updates, otherwise it will cause some errors.",
     "shortcuts": [
         [
             "Cherry Studio.exe",
             "Cherry Studio"
         ]
     ],
-    "installer": {
+    "persist": "CherryStudio",
+    "uninstaller": {
         "script": [
-            "Remove-Item \"$dir\\`$*\" -Force -Recurse",
-            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
-            "New-PersistDirectory \"$env:APPDATA\\CherryStudio\" \"$persist_dir\\AppData\" -Migrate"
+            "Remove-Item $env:APPDATA\\CherryStudio -Force -Recurse",
+            "if (Test-Path \"$env:LOCALAPPDATA\\cherrystudio-updater\" -PathType Container) {",
+            "    Remove-Item -Recurse -Force \"$env:LOCALAPPDATA\\cherrystudio-updater\"",
+            "}"
         ]
     },
-    "pre_uninstall": [
-        "$bucket = $install.bucket",
-        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
-        "Stop-App",
-        "Remove-Junction \"$env:APPDATA\\CherryStudio\""
-    ],
     "checkver": {
         "github": "https://github.com/CherryHQ/cherry-studio"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-x64-setup.exe#/dl.7z",
-                "hash": {
-                    "mode": "extract",
-                    "url": "$baseurl/latest.yml",
-                    "regex": "sha512:\\s+$base64"
-                }
+                "url": "https://gitcode.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-x64-setup.exe#/dl.7z"
             },
             "arm64": {
-                "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-arm64-setup.exe#/dl.7z",
-                "hash": {
-                    "mode": "download"
-                }
+                "url": "https://gitcode.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-arm64-setup.exe#/dl.7z"
             }
         }
     }
