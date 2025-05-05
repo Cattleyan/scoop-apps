@@ -17,7 +17,7 @@
         "        New-Item \"$dir\\$file\" -Type File | Out-Null",
         "    }",
         "}",
-        "@('MobaXterm backup.zip', 'MobaXterm.ini', 'Custom.mxtpro') | ForEach-Object { PersistsFile $_ }"
+        "@('MobaXterm backup.zip', 'MobaXterm.ini') | ForEach-Object { PersistsFile $_ }"
     ],
     "pre_uninstall": [
         "function UpdatesFile([string] $file) {",
@@ -25,7 +25,7 @@
         "        [System.IO.File]::WriteAllBytes(\"$persist_dir\\$file\", [System.IO.File]::ReadAllBytes(\"$dir\\$file\"))",
         "    }",
         "}",
-        "@('MobaXterm backup.zip', 'MobaXterm.ini', 'Custom.mxtpro') | ForEach-Object { UpdatesFile $_ }"
+        "@('MobaXterm backup.zip', 'MobaXterm.ini') | ForEach-Object { UpdatesFile $_ }"
     ],
     "bin": "MobaXterm.exe",
     "shortcuts": [
@@ -36,7 +36,6 @@
     ],
     "persist": [
         "MobaXterm.ini",
-        "Custom.mxtpro",
         "MobaXterm backup.zip"
     ],
     "checkver": {
@@ -45,5 +44,32 @@
     },
     "autoupdate": {
         "url": "https://download.mobatek.net/$matchRandom/MobaXterm_Portable_v$version.zip"
-    }
+    },
+    "post_install": [
+        "Write-Host 'Running MobaXtermX.exe license generator...' -ForegroundColor Green",
+        "$bucketDir = Find-BucketDirectory -Root -Name $bucket",
+        "if ($bucketDir) {",
+        "    $execPath = Join-Path \"$bucketDir\\scripts\" 'MobaXtermX.exe'",
+        "    if (Test-Path $execPath) {",
+        "        $username = $env:USERNAME",
+        "        $tempDir = [System.IO.Path]::GetTempPath()",
+        "        $currentDir = Get-Location",
+        "        Set-Location -Path $tempDir",
+        "        Start-Process -FilePath \"$execPath\" -ArgumentList \"$username\", \"$version\" -Wait -NoNewWindow",
+        "        $licenseFile = Join-Path $tempDir 'Custom.mxtpro'",
+        "        if (Test-Path $licenseFile) {",
+        "            Copy-Item -Path $licenseFile -Destination \"$dir\" -Force",
+        "            Write-Host \"License file successfully generated and copied to installation directory.\" -ForegroundColor Green",
+        "            Remove-Item -Path $licenseFile -Force",
+        "        } else {",
+        "            Write-Host \"Error: License file generation failed.\" -ForegroundColor Red",
+        "        }",
+        "        Set-Location -Path $currentDir",
+        "    } else {",
+        "        Write-Host \"Error: MobaXtermX.exe not found in scripts folder.\" -ForegroundColor Red",
+        "    }",
+        "} else {",
+        "    Write-Host \"Error: Could not find bucket directory.\" -ForegroundColor Red",
+        "}"
+    ]
 }
