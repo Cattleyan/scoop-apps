@@ -1,21 +1,9 @@
 {
+    "homepage": "http://www.haoxg.net/ediary",
     "version": "4.3.7",
-    "description": "A easy-to-use and powerfull diary software.",
-    "homepage": "http://www.haoxg.net/ediary/",
-    "license": "Freeware",
-    "architecture": {
-        "64bit": {
-            "url": "https://down.haoxg.net/download/ediary/windows/ediary-4.3.7-win64-portable.zip",
-            "extract_dir": "eDiary-4.3.7-win64",
-            "hash": "b0bca1d1c225e5602893dcfcfe62973c41c7e369faee5b31370dca20c110b9f4"
-        },
-        "32bit": {
-            "url": "https://down.haoxg.net/download/ediary/windows/ediary-4.3.7-win32-portable.zip",
-            "extract_dir": "eDiary-4.3.7-win32",
-            "hash": "a65b14f987118f03a165962404e3b4ba632c4a67f2ec0708717f6d16fdcdc3fc"
-        }
-    },
-    "bin": "eDiary.exe",
+    "url": "https://down.haoxg.net/download/ediary/windows/ediary-4.3.7-win64-portable.zip",
+    "hash": "b0bca1d1c225e5602893dcfcfe62973c41c7e369faee5b31370dca20c110b9f4",
+    "extract_dir": "eDiary-4.3.7-win64",
     "shortcuts": [
         [
             "eDiary.exe",
@@ -23,25 +11,6 @@
         ]
     ],
     "persist": [
-        "Users",
-        "Config.ini",
         "Data"
-    ],
-    "pre_install": "if (!(Test-Path \"$persist_dir\\Config.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\Config.ini\" -Value $null }",
-    "checkver": {
-        "url": "https://www.haoxg.net/download.php",
-        "regex": "ediary-(.*?)-win64-portable.zip"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://down.haoxg.net/download/ediary/windows/ediary-$version-win64-portable.zip",
-                "extract_dir": "eDiary-$version-win64"
-            },
-            "32bit": {
-                "url": "https://down.haoxg.net/download/ediary/windows/ediary-$version-win32-portable.zip",
-                "extract_dir": "eDiary-$version-win32"
-            }
-        }
-    }
+    ]
 }
