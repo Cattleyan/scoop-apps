@@ -1,12 +1,12 @@
 {
     "version": "141.0.3",
-    "description": "Popular open source web browser.",
+    "description": "Popular open source web browser",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
     "notes": [
-        "To set profile 'Scoop' as *DEFAULT*, or profiles/settings was lost after update:",
-        "  - Run 'Firefox Profile Manager', choose 'Scoop' then click 'Start Firefox'.",
-        "  - Visit 'about:profiles' page in Firefox to check *DEFAULT* profile.",
+        "To set 'Scoop' as the default profile, or profiles/settings was lost after update:",
+        "  - Run 'Firefox Profile Manager', choose 'Scoop' or previously using profile then click 'Start Firefox'.",
+        "  - Visit 'about:profiles' page in Firefox to check the current default profile.",
         "For details: https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"
     ],
     "architecture": {
@@ -17,10 +17,6 @@
         "32bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/141.0.3/win32/en-US/Firefox%20Setup%20141.0.3.exe#/dl.7z",
             "hash": "sha512:5ad7754d664b023b12d512e5947f5ca32b48da1c92321702848b7ab6f9b69fd0493159f91ad3378ead2422c93215ff24a13580714c0bdef3af3c805b05fcfd00"
-        },
-        "arm64": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/141.0.3/win64-aarch64/en-US/Firefox%20Setup%20141.0.3.exe#/dl.7z",
-            "hash": "sha512:e203b06d0055029211f7a1ca70e0e267b6e369d2311e0786841e5cd4b39a19213790e2f980ebea864a6c000fa4fb409c28be30dd902a8d3583285ffe199d5478"
         }
     },
     "extract_dir": "core",
@@ -45,12 +41,12 @@
         ]
     ],
     "persist": [
-        "distribution",
-        "profile"
+        "profile",
+        "distribution"
     ],
     "checkver": {
-        "url": "https://www.mozilla.org/en-US/firefox/notes/",
-        "regex": "<span class=\"c-release-version\">([\\d.]+)<\\/span>"
+        "url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+        "jsonpath": "$.LATEST_FIREFOX_VERSION"
     },
     "autoupdate": {
         "architecture": {
@@ -66,13 +62,6 @@
                 "hash": {
                     "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
                     "regex": "$sha512\\s+win32/en-US/$basename"
-                }
-            },
-            "arm64": {
-                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64-aarch64/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
-                "hash": {
-                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
-                    "regex": "$sha512\\s+win64-aarch64/en-US/$basename"
                 }
             }
         }
