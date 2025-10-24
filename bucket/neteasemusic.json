@@ -1,35 +1,35 @@
 {
     "homepage": "https://music.163.com/",
     "description": "The official NetEase Cloud Music client.",
-    "version": "3.1.21.204625",
+    "version": "3.1.21.204647",
     "license": {
         "identifier": "EULA",
         "url": "https://music.163.com/html/web2/service.html"
     },
     "architecture": {
         "64bit": {
-            "url": "https://d8.music.126.net/dmusic2/NeteaseCloudMusic_Music_official_3.1.21.204625_64.exe#/dl.7z",
-            "hash": "1de049517bdacca24b54484df85b1efafb8284d614ac02ca646b5a1f900f509a"
+            "url": "https://d8.music.126.net/dmusic2/NeteaseCloudMusic_Music_official_3.1.21.204647_64.exe#/dl.7z",
+            "hash": "1efe4fc1e367a894e67962225595e51fb468cbc1b4b17cdad939d040a3b0f2af"
         },
         "32bit": {
-            "url": "https://d8.music.126.net/dmusic2/NeteaseCloudMusic_Music_official_3.1.21.204625_32.exe#/dl.7z",
-            "hash": "bde7d6bfac3e9f6c906b006aadd65d7ef24268e653dab4147142008711cfb1cb"
+            "url": "https://d8.music.126.net/dmusic2/NeteaseCloudMusic_Music_official_3.1.21.204647_32.exe#/dl.7z",
+            "hash": "58ca04649a14fe5cee06de7bb3d8f337eae9d7197557407606ab5dffdaa48c14"
         }
     },
     "installer": {
         "script": [
-            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
             "Get-ChildItem \"$dir\\redist_packages\" | Move-Item -Destination \"$dir\" -Force",
-            "New-PersistDirectory \"$env:LOCALAPPDATA\\Netease\\CloudMusic\" \"$persist_dir\\AppData\" -Migrate"
+            "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name apps) scripts/AppsUtils.psm1)",
+            "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:LOCALAPPDATA\\Netease\\CloudMusic\"",
+            "Remove-Module -Name AppsUtils"
         ]
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\redist_packages\" -Force -Recurse",
     "uninstaller": {
         "script": [
-            "$bucket = $install.bucket",
-            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
-            "Stop-App",
-            "Remove-Junction \"$env:LOCALAPPDATA\\Netease\\CloudMusic\""
+            "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name apps) scripts/AppsUtils.psm1)",
+            "Dismount-ExternalRuntimeData -Target \"$env:LOCALAPPDATA\\Netease\\CloudMusic\"",
+            "Remove-Module -Name AppsUtils"
         ]
     },
     "bin": "cloudmusic.exe",
@@ -40,13 +40,9 @@
         ]
     ],
     "checkver": {
-        "script": [
-            "Import-Module \"$pwd\\bin\\WinGet.psm1\"",
-            "$Manifest = Get-WinGetInfo -Id 'NetEase.CloudMusic'",
-            "$version  = $Manifest.latest_version",
-            "return \"$version\""
-        ],
-        "regex": "(.*)"
+        "url": "https://music.163.com/api/appcustomconfig/get",
+        "jsonpath": "$.data.web-new-download.pc64.downloadUrl",
+        "regex": "NeteaseCloudMusic_Music_official_([\\d.]+)_64.exe"
     },
     "autoupdate": {
         "architecture": {
