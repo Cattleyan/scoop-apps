@@ -5760,6 +5760,7 @@ FluentSearch.json,dodorz/scoop
 Umi-OCR1-DLC-Language.json,dodorz/scoop
 Chord.json,dodorz/scoop
 AnyTXTSearcher-np.json,dodorz/scoop
+todo.txt-cli.json,dodorz/scoop
 Wink.json,dodorz/scoop
 TablacusExplorer.json,dodorz/scoop
 WikidPad.json,dodorz/scoop
@@ -5904,7 +5905,7 @@ ExitWindows.json,dodorz/scoop
 CLCL.json,dodorz/scoop
 MyHash_dodorz.json,dodorz/scoop
 KShutdown.json,dodorz/scoop
-ChatWise.json,dodorz/scoop
+ChatWise_dodorz.json,dodorz/scoop
 KeepNote.json,dodorz/scoop
 ResophNotes.json,dodorz/scoop
 CJK-character-count.json,dodorz/scoop
@@ -6229,7 +6230,7 @@ ezshare.json,couleur-tweak-tips/utils
 discordcompressor.json,couleur-tweak-tips/utils
 mouse-tester.json,couleur-tweak-tips/utils
 mupen64plus.json,borger/scoop-emulators
-pcsx2-dev.json,borger/scoop-emulators
+pcsx2-dev_borger.json,borger/scoop-emulators
 rmg_borger.json,borger/scoop-emulators
 scummvm_borger.json,borger/scoop-emulators
 zelda64recomp_borger.json,borger/scoop-emulators
@@ -6249,7 +6250,7 @@ duckstation_borger.json,borger/scoop-emulators
 pcsx2_borger.json,borger/scoop-emulators
 visualboyadvance-m_borger.json,borger/scoop-emulators
 flycast_borger.json,borger/scoop-emulators
-duckstation-preview.json,borger/scoop-emulators
+duckstation-preview_borger.json,borger/scoop-emulators
 bsnes-nightly.json,borger/scoop-emulators
 cemu-dev_borger.json,borger/scoop-emulators
 scummvm-nightly_borger.json,borger/scoop-emulators
@@ -7042,7 +7043,7 @@ winxshell.json,xrgzs/sdoog
 mumu-np.json,xrgzs/sdoog
 mobaxterm-cn.json,xrgzs/sdoog
 wsl-ubuntu1804.json,xrgzs/sdoog
-v2rayn_xrgzs.json,xrgzs/sdoog
+v2rayn.json,xrgzs/sdoog
 lmstudio_xrgzs.json,xrgzs/sdoog
 plum.json,xrgzs/sdoog
 pcl2.json,xrgzs/sdoog
@@ -7427,7 +7428,7 @@ termscp_DoveBoy.json,DoveBoy/Apps
 zyplayer.json,DoveBoy/Apps
 youtube-dl_DoveBoy.json,DoveBoy/Apps
 spotx.json,DoveBoy/Apps
-v2rayn.json,DoveBoy/Apps
+v2rayn_DoveBoy.json,DoveBoy/Apps
 windows11-classic-context-menu.json,DoveBoy/Apps
 hwinfo.json,DoveBoy/Apps
 posh-git.json,DoveBoy/Apps
@@ -7995,7 +7996,7 @@ ntrace-core.json,DoveBoy/Apps
 binggpt-portable.json,DoveBoy/Apps
 aria2manager.json,DoveBoy/Apps
 flybird-downloader.json,DoveBoy/Apps
-animeko.json,DoveBoy/Apps
+animeko_DoveBoy.json,DoveBoy/Apps
 fancontrol-net4.8-portable.json,DoveBoy/Apps
 gallery-dl_DoveBoy.json,DoveBoy/Apps
 text-generation-webui.json,DoveBoy/Apps
@@ -8212,7 +8213,7 @@ wnr_zhoujin7.json,zhoujin7/tomato
 Nacos.json,zhoujin7/tomato
 AdiIRC_zhoujin7.json,zhoujin7/tomato
 CCleaner540.json,zhoujin7/tomato
-Q-Dir_zhoujin7.json,zhoujin7/tomato
+Q-Dir.json,zhoujin7/tomato
 OracleJDK11.json,zhoujin7/tomato
 HBuilderX_zhoujin7.json,zhoujin7/tomato
 soar.json,zhoujin7/tomato
@@ -8476,7 +8477,7 @@ defendnot.json,hu3rror/scoop-muggle
 bg3-mod-manager.json,hu3rror/scoop-muggle
 manhuagui-downloader.json,hu3rror/scoop-muggle
 neeview.json,hu3rror/scoop-muggle
-witsy.json,hu3rror/scoop-muggle
+witsy_hu3rror.json,hu3rror/scoop-muggle
 mosdns-cn_hu3rror.json,hu3rror/scoop-muggle
 nsudo.json,hu3rror/scoop-muggle
 wonderpen.json,hu3rror/scoop-muggle
@@ -9790,6 +9791,7 @@ ddu-lean.json,brian6932/dank-scoop
 rusty-twinkle-tray.json,brian6932/dank-scoop
 mpv-sub-select.json,brian6932/dank-scoop
 7zTC.json,brian6932/dank-scoop
+thumbfast-fork.json,brian6932/dank-scoop
 video2x.json,brian6932/dank-scoop
 wordle.json,brian6932/dank-scoop
 artroom-stable-diffusion.json,brian6932/dank-scoop
@@ -10008,7 +10010,7 @@ buildkit.json,batkiz/backit
 duf_batkiz.json,batkiz/backit
 gojq_batkiz.json,batkiz/backit
 mage_batkiz.json,batkiz/backit
-dnote_batkiz.json,batkiz/backit
+dnote.json,batkiz/backit
 irust.json,batkiz/backit
 Eros-FE.json,batkiz/backit
 uni.json,batkiz/backit
@@ -10277,7 +10279,7 @@ wuthering-waves-gacha-record.json,Small-Ku/turbo-bucket
 crapfixer_Small-Ku.json,Small-Ku/turbo-bucket
 jxl-winthumb.json,Small-Ku/turbo-bucket
 psst.json,Small-Ku/turbo-bucket
-starward_Small-Ku.json,Small-Ku/turbo-bucket
+starward.json,Small-Ku/turbo-bucket
 orbolay.json,Small-Ku/turbo-bucket
 kondo_Small-Ku.json,Small-Ku/turbo-bucket
 zluda5.json,Small-Ku/turbo-bucket
@@ -12679,6 +12681,7 @@ steamtokendumper.json,Rinkerbel/scooped
 sharex-hdr.json,Rinkerbel/scooped
 zenshin.json,Rinkerbel/scooped
 syncyomi.json,Rinkerbel/scooped
+mangayomi_Rinkerbel.json,Rinkerbel/scooped
 toru.json,Rinkerbel/scooped
 anymex.json,Rinkerbel/scooped
 shokoserver.json,Rinkerbel/scooped
