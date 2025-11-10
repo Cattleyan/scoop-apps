@@ -3766,7 +3766,7 @@ tcpconnectproblemview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 usbdeview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 wincrashreport_ScoopInstaller.json,ScoopInstaller/Nirsoft
 myeventviewer_ScoopInstaller.json,ScoopInstaller/Nirsoft
-bulkfilechanger_ScoopInstaller.json,ScoopInstaller/Nirsoft
+bulkfilechanger.json,ScoopInstaller/Nirsoft
 shadowcopyview_ScoopInstaller.json,ScoopInstaller/Nirsoft
 installedcodec_ScoopInstaller.json,ScoopInstaller/Nirsoft
 zipinst.json,ScoopInstaller/Nirsoft
@@ -6242,7 +6242,7 @@ fceux.json,borger/scoop-emulators
 bsnes-hd-beta_borger.json,borger/scoop-emulators
 snes9x_borger.json,borger/scoop-emulators
 dolphin_borger.json,borger/scoop-emulators
-ryujinx-canary_borger.json,borger/scoop-emulators
+ryujinx-canary.json,borger/scoop-emulators
 cemu_borger.json,borger/scoop-emulators
 redream-dev_borger.json,borger/scoop-emulators
 xenia-canary_borger.json,borger/scoop-emulators
@@ -6374,6 +6374,7 @@ caesium.json,ViCrack/scoop-bucket
 memshellparty.json,ViCrack/scoop-bucket
 evilpot.json,ViCrack/scoop-bucket
 confuserex-cli.json,ViCrack/scoop-bucket
+fapro.json,ViCrack/scoop-bucket
 cpuz-cn.json,ViCrack/scoop-bucket
 ffuf_ViCrack.json,ViCrack/scoop-bucket
 extremedumper.json,ViCrack/scoop-bucket
@@ -7257,6 +7258,7 @@ peerbanhelper.json,xrgzs/sdoog
 liteloaderqqnt.json,xrgzs/sdoog
 easinote5c.json,xrgzs/sdoog
 go-musicfox.json,xrgzs/sdoog
+naturalvoicesapiadapter.json,xrgzs/sdoog
 verysync.json,xrgzs/sdoog
 ndd.json,xrgzs/sdoog
 serverbox.json,xrgzs/sdoog
@@ -7518,7 +7520,7 @@ sharex.json,DoveBoy/Apps
 scoop-sd.json,DoveBoy/Apps
 sudo_DoveBoy.json,DoveBoy/Apps
 anto.json,DoveBoy/Apps
-openspeedy_DoveBoy.json,DoveBoy/Apps
+openspeedy.json,DoveBoy/Apps
 moekoemusic.json,DoveBoy/Apps
 transmission.json,DoveBoy/Apps
 qtunblockneteasemusic.json,DoveBoy/Apps
@@ -8000,7 +8002,6 @@ animeko_DoveBoy.json,DoveBoy/Apps
 fancontrol-net4.8-portable.json,DoveBoy/Apps
 gallery-dl_DoveBoy.json,DoveBoy/Apps
 text-generation-webui.json,DoveBoy/Apps
-openai-translator.json,DoveBoy/Apps
 bililive-tools-portable.json,DoveBoy/Apps
 scoop-backup-knoxdev.json,DoveBoy/Apps
 ecopaste.json,DoveBoy/Apps
@@ -8020,6 +8021,7 @@ powertoys-np_DoveBoy.json,DoveBoy/Apps
 baidupanfilestransfers_DoveBoy.json,DoveBoy/Apps
 gitextensions.json,DoveBoy/Apps
 cmwtat-digital-edition.json,DoveBoy/Apps
+nextai-translator.json,DoveBoy/Apps
 clashrauto_DoveBoy.json,DoveBoy/Apps
 n_m3u8dl-cli_DoveBoy.json,DoveBoy/Apps
 picpick_DoveBoy.json,DoveBoy/Apps
@@ -8213,7 +8215,7 @@ wnr_zhoujin7.json,zhoujin7/tomato
 Nacos.json,zhoujin7/tomato
 AdiIRC_zhoujin7.json,zhoujin7/tomato
 CCleaner540.json,zhoujin7/tomato
-Q-Dir.json,zhoujin7/tomato
+Q-Dir_zhoujin7.json,zhoujin7/tomato
 OracleJDK11.json,zhoujin7/tomato
 HBuilderX_zhoujin7.json,zhoujin7/tomato
 soar.json,zhoujin7/tomato
@@ -9617,6 +9619,7 @@ asimov-chromium-module.json,asimov-platform/scoop-bucket
 asimov-jinja-module.json,asimov-platform/scoop-bucket
 asimov-imap-module.json,asimov-platform/scoop-bucket
 asimov-http-module.json,asimov-platform/scoop-bucket
+asimov-image-module.json,asimov-platform/scoop-bucket
 asimov-vcard-module.json,asimov-platform/scoop-bucket
 asimov-ollama-module.json,asimov-platform/scoop-bucket
 asimov-brightdata-module.json,asimov-platform/scoop-bucket
@@ -10466,7 +10469,7 @@ qqmusic_TianXiaTech.json,TianXiaTech/scoop-txt
 Noi_TianXiaTech.json,TianXiaTech/scoop-txt
 weixin_TianXiaTech.json,TianXiaTech/scoop-txt
 tencentVideo.json,TianXiaTech/scoop-txt
-openai-translator_TianXiaTech.json,TianXiaTech/scoop-txt
+openai-translator.json,TianXiaTech/scoop-txt
 kugou_TianXiaTech.json,TianXiaTech/scoop-txt
 clash-for-windows-cn.json,TianXiaTech/scoop-txt
 clash-for-windows_TianXiaTech.json,TianXiaTech/scoop-txt
@@ -10866,7 +10869,7 @@ ImDiskToolkit.json,cc713/ownscoop
 Irfanview_cc713.json,cc713/ownscoop
 gitextensions.json,cc713/ownscoop
 gimagereader_cc713.json,cc713/ownscoop
-LunaTranslator_cc713.json,cc713/ownscoop
+LunaTranslator.json,cc713/ownscoop
 ghostscript_cc713.json,cc713/ownscoop
 firefox-zh-CN_cc713.json,cc713/ownscoop
 foobox-cn.json,cc713/ownscoop
@@ -12681,7 +12684,6 @@ steamtokendumper.json,Rinkerbel/scooped
 sharex-hdr.json,Rinkerbel/scooped
 zenshin.json,Rinkerbel/scooped
 syncyomi.json,Rinkerbel/scooped
-mangayomi_Rinkerbel.json,Rinkerbel/scooped
 toru.json,Rinkerbel/scooped
 anymex.json,Rinkerbel/scooped
 shokoserver.json,Rinkerbel/scooped
@@ -12898,6 +12900,7 @@ Font-Awesome_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
 r-devel_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
 PowerShell_maboloshi.json,maboloshi/scoop-private
 notepad4_maboloshi.json,maboloshi/scoop-private
+ima-copilot_maboloshi.json,maboloshi/scoop-private
 microsoftedge-beta_maboloshi.json,maboloshi/scoop-private
 ffmpeg-N_m3u8DL-CLI.json,maboloshi/scoop-private
 sarasa-gothic-sc-excerpt.json,maboloshi/scoop-private
@@ -12907,6 +12910,7 @@ sublime-merge.json,maboloshi/scoop-private
 regworkshop.json,maboloshi/scoop-private
 clash-for-windows-cn_maboloshi.json,maboloshi/scoop-private
 miktex_maboloshi.json,maboloshi/scoop-private
+we-meet_maboloshi.json,maboloshi/scoop-private
 n-m3u8dl-cli-simpleg_list.json,maboloshi/scoop-private
 fonts-cesi.json,maboloshi/scoop-private
 CascadiaMono-NF-Mono_maboloshi.json,maboloshi/scoop-private
