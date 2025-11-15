@@ -1,10 +1,10 @@
 {
-    "version": "0.15.8",
+    "version": "0.16.0",
     "description": "Starward is an open-source third-party launcher developed to address the aforementioned shortcomings. It supports all PC games on of HoYoverse and aims to completely replace the official launcher.",
     "homepage": "https://starward.scighost.com/",
     "license": "MIT license",
-    "url": "https://github.com/Scighost/Starward/releases/download/0.15.8/Starward_Portable_0.15.8_x64.7z",
-    "hash": "c8f47f18e52f96d125866a7cbfdfbe8719e978dc0207aa3048ee28e4891fbc31",
+    "url": "https://github.com/Scighost/Starward/releases/download/0.16.0/Starward_Portable_0.16.0_x64.7z",
+    "hash": "ad62b4a402f73f705aecc574a55bbd2a47d74b133c3a6f1823be8a589f06d6d5",
     "pre_install": [
         "New-Item -Path \"$dir\" -Name \"config.ini\" -ItemType \"file\" -Force -ErrorAction SilentlyContinue | Out-Null",
         "New-Item -Path \"$dir\" -Name \"StarwardDatabase.db\" -ItemType \"file\" -Force -ErrorAction SilentlyContinue | Out-Null"
