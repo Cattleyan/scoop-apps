@@ -1,27 +1,14 @@
 {
     "version": "25.4.4",
-    "description": "A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
-    "homepage": "https://www.emeditor.com/",
-    "license": "Shareware",
-    "architecture": {
-        "64bit": {
-            "url": "https://emeditor.blob.core.windows.net/emed64_25.4.4_portable.zip",
-            "hash": "b80b5d189201f306fd41a4d1e79237d0aa909d1f6214b2402019b9f2ab8c1e0d"
-        }
-    },
+    "description": "world’s fastest text editor.",
+    "homepage": "https://www.emeditor.com/download/",
+    "license": "BSD-3-Clause",
+    "url": "https://xmod-my.sharepoint.cn/:u:/g/personal/admin_xmod_partner_onmschina_cn/EbEr-rzAQuBKm4CcIJfeSTABZrIP44Eq6hX6M89R6eJhLA?download=1#/dl.7z",
     "pre_install": [
-        "$manifest.persist | ForEach-Object {",
-        "    if ([io.path]::GetExtension($_)) {",
-        "        if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null }",
-        "    }",
-        "}"
-    ],
-    "bin": "EmEditor.exe",
-    "shortcuts": [
-        [
-            "EmEditor.exe",
-            "EmEditor"
-        ]
+        "if(!(Test-Path \"$persist_dir\\eeCommon.ini\")) { Add-Content \"$dir\\eeCommon.ini\" $null }",
+        "if(!(Test-Path \"$persist_dir\\eeConfig.ini\")) { Add-Content \"$dir\\eeConfig.ini\" $null }",
+        "if(!(Test-Path \"$persist_dir\\eeLM.ini\")) { Add-Content \"$dir\\eeLM.ini\" $null }",
+        "if(!(Test-Path \"$persist_dir\\eePlugins.ini\")) { Add-Content \"$dir\\eePlugins.ini\" $null }"
     ],
     "persist": [
         "eeCommon.ini",
@@ -29,15 +16,10 @@
         "eeLM.ini",
         "eePlugins.ini"
     ],
-    "checkver": {
-        "url": "https://www.emeditor.com/",
-        "regex": "EmEditor v([\\d.]+) (R|r)eleased"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://emeditor.blob.core.windows.net/emed64_$version_portable.zip"
-            }
-        }
-    }
+    "shortcuts": [
+        [
+            "EmEditor.exe",
+            "EmEditor"
+        ]
+    ]
 }
