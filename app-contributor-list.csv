@@ -5165,6 +5165,7 @@ rstudio-pro-release.json,cderv/r-bucket
 quarto.json,cderv/r-bucket
 rstudio-daily-electron.json,cderv/r-bucket
 rstudio-pro-daily.json,cderv/r-bucket
+mq-dbg.json,cderv/r-bucket
 jarl.json,cderv/r-bucket
 rstudio-release.json,cderv/r-bucket
 rstudio-1.3.json,cderv/r-bucket
@@ -5181,6 +5182,7 @@ tinytex-extra.json,cderv/r-bucket
 fq_cderv.json,cderv/r-bucket
 beads.json,cderv/r-bucket
 arf.json,cderv/r-bucket
+mq-lsp.json,cderv/r-bucket
 beans.json,cderv/r-bucket
 tinytex.json,cderv/r-bucket
 rstudio-2022.07.json,cderv/r-bucket
@@ -5197,6 +5199,7 @@ chezmoi-modify-manager.json,cderv/r-bucket
 rstudio-pro-preview.json,cderv/r-bucket
 rv.json,cderv/r-bucket
 quarto-prerelease.json,cderv/r-bucket
+mq.json,cderv/r-bucket
 octarine.json,cderv/r-bucket
 rstudio-2022.12.json,cderv/r-bucket
 rstudio-2023.03.json,cderv/r-bucket
@@ -5204,6 +5207,7 @@ tree.json,cderv/r-bucket
 r-release.json,cderv/r-bucket
 rstudio-daily_cderv.json,cderv/r-bucket
 qvm.json,cderv/r-bucket
+mqcr.json,cderv/r-bucket
 positron-daily.json,cderv/r-bucket
 rig.json,cderv/r-bucket
 rstudio-1.4.json,cderv/r-bucket
@@ -6933,7 +6937,7 @@ vmware12-np.json,xrgzs/sdoog
 ultrauxthemepatcher.json,xrgzs/sdoog
 rime-frost-git.json,xrgzs/sdoog
 breeze-shell-nightly.json,xrgzs/sdoog
-windows-defender-remover_xrgzs.json,xrgzs/sdoog
+windows-defender-remover.json,xrgzs/sdoog
 iobit-uninstaller.json,xrgzs/sdoog
 wsl-nixos.json,xrgzs/sdoog
 nanazip_xrgzs.json,xrgzs/sdoog
@@ -8015,7 +8019,7 @@ czkawka_DoveBoy.json,DoveBoy/Apps
 mpv-easy-player.json,DoveBoy/Apps
 musicbee.json,DoveBoy/Apps
 video-subtitle-extractor-gpu.json,DoveBoy/Apps
-telegram_DoveBoy.json,DoveBoy/Apps
+telegram.json,DoveBoy/Apps
 psgithub_DoveBoy.json,DoveBoy/Apps
 quardcrt.json,DoveBoy/Apps
 quarkpantool.json,DoveBoy/Apps
@@ -8368,7 +8372,7 @@ freeze.json,charmbracelet/scoop-bucket
 charm.json,charmbracelet/scoop-bucket
 wishlist.json,charmbracelet/scoop-bucket
 charm-gum_charmbracelet.json,charmbracelet/scoop-bucket
-crush_charmbracelet.json,charmbracelet/scoop-bucket
+crush.json,charmbracelet/scoop-bucket
 pop.json,charmbracelet/scoop-bucket
 sequin.json,charmbracelet/scoop-bucket
 skate.json,charmbracelet/scoop-bucket
@@ -9544,7 +9548,7 @@ centbrowser_WinApps-share.json,WinApps-share/WinApps-bucket
 equalizer-apo.json,WinApps-share/WinApps-bucket
 rustdesk_WinApps-share.json,WinApps-share/WinApps-bucket
 xterminal_WinApps-share.json,WinApps-share/WinApps-bucket
-vscode_WinApps-share.json,WinApps-share/WinApps-bucket
+vscode.json,WinApps-share/WinApps-bucket
 nanazip_WinApps-share.json,WinApps-share/WinApps-bucket
 utools_WinApps-share.json,WinApps-share/WinApps-bucket
 bcuninstaller.json,WinApps-share/WinApps-bucket
@@ -10043,7 +10047,7 @@ cidr.json,aliesbelik/poldi
 kcli.json,aliesbelik/poldi
 spoofdpi.json,aliesbelik/poldi
 httprobe.json,aliesbelik/poldi
-mq.json,aliesbelik/poldi
+mq_aliesbelik.json,aliesbelik/poldi
 hwatch.json,aliesbelik/poldi
 jlv.json,aliesbelik/poldi
 xurls.json,aliesbelik/poldi
@@ -10700,7 +10704,7 @@ Termius-Beta.json,Darkatse/Scoop-Darkatse
 Movie_Data_Capture.json,Darkatse/Scoop-Darkatse
 Cinebench2024.json,Darkatse/Scoop-Darkatse
 Watt-Toolkit_Darkatse.json,Darkatse/Scoop-Darkatse
-MaaAssistantArknights_Darkatse.json,Darkatse/Scoop-Darkatse
+MaaAssistantArknights.json,Darkatse/Scoop-Darkatse
 Shanaencoder_Darkatse.json,Darkatse/Scoop-Darkatse
 MaaX.json,Darkatse/Scoop-Darkatse
 vesta.json,Darkatse/Scoop-Darkatse
@@ -11140,7 +11144,7 @@ ImDiskToolkit.json,cc713/ownscoop
 Irfanview_cc713.json,cc713/ownscoop
 gitextensions.json,cc713/ownscoop
 gimagereader_cc713.json,cc713/ownscoop
-LunaTranslator_cc713.json,cc713/ownscoop
+LunaTranslator.json,cc713/ownscoop
 ghostscript_cc713.json,cc713/ownscoop
 firefox-zh-CN_cc713.json,cc713/ownscoop
 foobox-cn.json,cc713/ownscoop
@@ -12857,7 +12861,7 @@ IBMPlexTT.json,ShuguangSun/sgs-scoop-bucket
 ydict.json,ShuguangSun/sgs-scoop-bucket
 Maple-Mono-otf_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
 Font-Awesome_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
-r-devel.json,ShuguangSun/sgs-scoop-bucket
+r-devel_ShuguangSun.json,ShuguangSun/sgs-scoop-bucket
 normcap_jcwillox.json,jcwillox/scoop-bucket
 ytmdesktop-portable.json,jcwillox/scoop-bucket
 ghidra.json,jcwillox/scoop-bucket
@@ -12923,7 +12927,7 @@ godsvg.json,windedge/ladle-bucket
 mdview_windedge.json,windedge/ladle-bucket
 enve.json,windedge/ladle-bucket
 anytype.json,windedge/ladle-bucket
-dyad_windedge.json,windedge/ladle-bucket
+dyad.json,windedge/ladle-bucket
 pdf4teachers.json,windedge/ladle-bucket
 sourcetrail.json,windedge/ladle-bucket
 llama-cpp-ipex-llm.json,windedge/ladle-bucket
@@ -13022,6 +13026,7 @@ uivonim.json,younger-1/scoop-it
 epick.json,younger-1/scoop-it
 sqlite3dll.json,younger-1/scoop-it
 selene.json,younger-1/scoop-it
+vlang_younger-1.json,younger-1/scoop-it
 im-select.json,younger-1/scoop-it
 stylua_younger-1.json,younger-1/scoop-it
 hello.json,younger-1/scoop-it
@@ -13077,7 +13082,6 @@ winspy-m417z.json,milnak/scoop-bucket
 romcenter.json,milnak/scoop-bucket
 gargoyle.json,milnak/scoop-bucket
 cemu_milnak.json,milnak/scoop-bucket
-mpc-hc-clsid2.json,milnak/scoop-bucket
 ctrlr.json,milnak/scoop-bucket
 midi-ox.json,milnak/scoop-bucket
 notepad4-avx2_milnak.json,milnak/scoop-bucket
