@@ -1,36 +1,60 @@
 {
-    "version": "0.12.155",
-    "description": "Kiro is Amazon's agentic IDE built for working with AWS, powered by Claude AI",
-    "homepage": "https://kiro.dev/",
+    "version": "0.3.18",
+    "description": "QoderWork - Beyond chat, get it done",
+    "homepage": "https://qoder.com/qoderwork",
     "license": {
         "identifier": "Proprietary",
-        "url": "https://kiro.dev/license/"
+        "url": "https://qoder.com/product-service"
     },
     "architecture": {
         "64bit": {
-            "url": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.12.155/kiro-ide-0.12.155-stable-win32-x64.exe",
-            "hash": "5bbed63379d2cd5dafdc014814b2fd08a6de5e73be6ac3c8ee945d04eeb1be9e"
+            "url": "https://download.qoder.com/qoder-work/releases/latest/QoderWork-Setup-User-x64.exe#/dl.7z",
+            "hash": "519eb1fe12c4baa278e160f0ba67f67acd5b407949a804f6791963b0ff4c4dc5",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\" -Recurse"
+            ]
         }
     },
-    "innosetup": true,
-    "extract_dir": "{code_GetDestDir}",
     "shortcuts": [
         [
-            "Kiro.exe",
-            "Kiro"
+            "QoderWork.exe",
+            "QoderWork"
         ]
     ],
+    "persist": "data",
+    "checkver": {
+        "script": [
+            "$downloadUrl = 'https://download.qoder.com/qoder-work/releases/latest/QoderWork-Setup-User-x64.exe'",
+            "$headers = @{ Range = 'bytes=0-3145727' }",
+            "$tmpFile = Join-Path $env:TEMP ('qoderwork_' + [guid]::NewGuid().ToString() + '.exe')",
+            "try {",
+            "    Invoke-WebRequest -Uri $downloadUrl -Headers $headers -UseBasicParsing -OutFile $tmpFile",
+            "    $version = (Get-Item $tmpFile).VersionInfo.FileVersion",
+            "    if (-not $version) { throw 'Unable to read QoderWork version from installer metadata.' }",
+            "    Write-Output ($downloadUrl + '|' + $version)",
+            "}",
+            "finally {",
+            "    if (Test-Path $tmpFile) { Remove-Item $tmpFile -Force -ErrorAction SilentlyContinue }",
+            "}"
+        ],
+        "regex": "^(?<url>.+)\\|(?<version>[\\d.]+)$"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "$matchUrl#/dl.7z"
+            }
+        }
+    },
+    "notes": [
+        "QoderWork 使用官方 latest 安装器直链。",
+        "实机首启已确认：~\\.qoderwork -> persist/qoderwork/home/config。",
+        "~\\.qoder 属于 qoder 侧目录，当前清单不做持久化。",
+        "checkver 通过请求安装器前 3 MiB 分片并读取文件版本号实现。",
+        "当前尚未观察到 %APPDATA%\\QoderWork 的首启写入；若后续发现额外数据目录，可再补充 portableProfile。"
+    ],
     "post_install": [
-        "$homeConfig = Join-Path $persist_dir 'home\\config'",
-        "$extensionsDir = Join-Path $homeConfig 'extensions'",
-        "$roamingDir = Join-Path $persist_dir 'roaming'",
-        "$programsDir = Join-Path $persist_dir 'programs'",
-        "foreach ($path in @($homeConfig, $extensionsDir, $roamingDir, $programsDir)) { if (-not (Test-Path $path)) { New-Item -ItemType Directory -Path $path -Force | Out-Null } }",
-        "$extensionsFile = Join-Path $extensionsDir 'extensions.json'",
-        "if (Test-Path $extensionsFile) {",
-        "  info 'Adjusting path in extensions file...'",
-        "  (Get-Content $extensionsFile) -replace '(?<=kiro(/|\\\\)).*?(?=(/|\\\\)home(/|\\\\)config(/|\\\\)extensions)', $version | Set-Content $extensionsFile",
-        "}",
         "#region scoop-portable-profile",
         "# Portable profile helpers for Scoop manifests.",
         "# 说明：构建阶段会把该文件的内容内联进 post_install/pre_uninstall。",
@@ -168,24 +192,9 @@
         "}",
         "#endregion",
         "Invoke-PortableMappings -Action Install -Context @{ Dir = $dir; PersistDir = $persist_dir } -Mappings @(",
-        "    @{ Label = 'home-config'; Source = 'UserProfile/.kiro'; Target = \"$persist_dir/home/config\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' },",
-        "    @{ Label = 'roaming'; Source = 'AppData/Kiro'; Target = \"$persist_dir/roaming\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' },",
-        "    @{ Label = 'programs'; Source = 'LocalAppData/Programs/kiro'; Target = \"$persist_dir/programs\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
+        "    @{ Label = 'home-config'; Source = 'UserProfile/.qoderwork'; Target = \"$persist_dir/home/config\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
         ") -Log:$true"
     ],
-    "persist": "data",
-    "checkver": {
-        "url": "https://prod.download.desktop.kiro.dev/stable/metadata-win32-x64-user-stable.json",
-        "regex": "\"version\":\"(?<version>[\\d.]+)\".*?\"url\":\"(?<url>[^\"]+win32-x64\\.exe)\"",
-        "replace": "${version}"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "$matchUrl"
-            }
-        }
-    },
     "pre_uninstall": [
         "#region scoop-portable-profile",
         "# Portable profile helpers for Scoop manifests.",
@@ -324,9 +333,7 @@
         "}",
         "#endregion",
         "Invoke-PortableMappings -Action Uninstall -Context @{ Dir = $dir; PersistDir = $persist_dir } -Mappings @(",
-        "    @{ Label = 'home-config'; Source = 'UserProfile/.kiro'; Target = \"$persist_dir/home/config\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' },",
-        "    @{ Label = 'roaming'; Source = 'AppData/Kiro'; Target = \"$persist_dir/roaming\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' },",
-        "    @{ Label = 'programs'; Source = 'LocalAppData/Programs/kiro'; Target = \"$persist_dir/programs\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
+        "    @{ Label = 'home-config'; Source = 'UserProfile/.qoderwork'; Target = \"$persist_dir/home/config\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
         ") -Log:$true"
     ]
 }
