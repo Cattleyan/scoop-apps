@@ -1,12 +1,35 @@
 {
-    "homepage": "https://www.bleachbit.org/",
+    "version": "6.0.0",
     "description": "Disk space cleaner, privacy manager, and computer system optimizer.",
-    "license": "GPL-3.0-or-later",
-    "version": "4.0.0",
-    "url": "https://download.bleachbit.org/BleachBit-4.0.0-portable.zip",
-    "hash": "1d27d3828e258981ddabeb3a2427983d3deb2efb8d9c4c7369d2610d6d55b305",
-    "extract_dir": "BleachBit-portable",
+    "homepage": "https://www.bleachbit.org/",
+    "license": {
+        "identifier": "GPL-3.0 license",
+        "url": "https://github.com/bleachbit/bleachbit#GPL-3.0-1-ov-file"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.bleachbit.org/BleachBit-6.0.0-setup.exe#/dl.7z",
+            "hash": "d8b2a8f98a677283e13bcf7f8d91df10e6daf3870a70ac8f7479c082ed67ac39",
+            "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Force -Recurse"
+        }
+    },
+    "installer": {
+        "script": [
+            "# handle runtime cache",
+            "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name apps) scripts/AppsUtils.psm1)",
+            "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:APPDATA\\BleachBit\"",
+            "Remove-Module -Name AppsUtils"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name apps) scripts/AppsUtils.psm1)",
+            "Dismount-ExternalRuntimeData -Target \"$env:APPDATA\\BleachBit\"",
+            "Remove-Module -Name AppsUtils"
+        ]
+    },
     "bin": [
+        "bleachbit_console.exe",
         [
             "bleachbit_console.exe",
             "bleachbit"
@@ -18,18 +41,16 @@
             "BleachBit"
         ]
     ],
-    "persist": [
-        "cleaners",
-        "BleachBit.ini"
-    ],
     "checkver": {
-        "url": "https://www.bleachbit.org/download/windows",
-        "regex": "BleachBit ([\\d.]+)"
+        "github": "https://api.github.com/repos/bleachbit/bleachbit/releases/latest",
+        "jp": "$.tag_name",
+        "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://download.bleachbit.org/BleachBit-$version-portable.zip",
-        "hash": {
-            "url": "$baseurl/bleachbit-$version-sha256sum.txt"
+        "architecture": {
+            "64bit": {
+                "url": "https://download.bleachbit.org/BleachBit-$version-setup.exe#/dl.7z"
+            }
         }
     }
 }
