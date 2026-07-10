@@ -120,11 +120,11 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - ocodo/wezterm-alt-windows-icon-builds
 - zirnc/peach
 - seumsc/scoop-seu
-- starise/Scoop-Confetti
+- iquiw/scoop-bucket
 - Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
+- starise/Scoop-Confetti
 - mo-san/scoop-bucket
-- iquiw/scoop-bucket
 - 42wim/scoop-bucket
 - babo4d/scoop-xrtools
 - jfut/scoop-jfut
@@ -135,10 +135,10 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - natecohen/scoop-av
 - typst-community/scoop-bucket
 - rivy/scoop-bucket
-- 404NetworkError/scoop-bucket
 - AntonOks/scoop-aoks
 - HUMORCE/nuke
 - maboloshi/scoop-private
+- 404NetworkError/scoop-bucket
 - littleli/Scoop-littleli
 - Deide/deide-bucket
 - Darkatse/Scoop-KanColle
@@ -150,6 +150,7 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - ChinLong/scoop-customize
 - LaelLuo/scoop
 - ShuguangSun/sgs-scoop-bucket
+- bright-angel/scoop-bucket
 - Rinkerbel/scooped
 - windedge/ladle-bucket
 - The-Simples/scoop-minecraft
