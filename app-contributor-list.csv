@@ -3086,9 +3086,11 @@ sbt013.json,ScoopInstaller/Versions
 php56-xdebug.json,ScoopInstaller/Versions
 duplicati-canary.json,ScoopInstaller/Versions
 aurora-rgb.json,ScoopInstaller/Versions
+herdr-preview.json,ScoopInstaller/Versions
 cuda11.5.json,ScoopInstaller/Versions
 go116.json,ScoopInstaller/Versions
 php54-xdebug.json,ScoopInstaller/Versions
+unity-cli-beta.json,ScoopInstaller/Versions
 tinymediamanager3.json,ScoopInstaller/Versions
 go119.json,ScoopInstaller/Versions
 windowsdesktop-runtime-10.0.json,ScoopInstaller/Versions
@@ -7141,7 +7143,7 @@ termix.json,ViCrack/scoop-bucket
 xpoc_ViCrack.json,ViCrack/scoop-bucket
 MonitorOff.json,ViCrack/scoop-bucket
 woodpecker_ViCrack.json,ViCrack/scoop-bucket
-cherry-studio_ViCrack.json,ViCrack/scoop-bucket
+cherry-studio.json,ViCrack/scoop-bucket
 sublinkpro.json,ViCrack/scoop-bucket
 verycapture_ViCrack.json,ViCrack/scoop-bucket
 dddd_ViCrack.json,ViCrack/scoop-bucket
@@ -8372,7 +8374,7 @@ pnpm-tab-completion.json,DoveBoy/Apps
 pikatorrent.json,DoveBoy/Apps
 grex_DoveBoy.json,DoveBoy/Apps
 mediago-beta.json,DoveBoy/Apps
-googlechrome_DoveBoy.json,DoveBoy/Apps
+googlechrome.json,DoveBoy/Apps
 q-dns_DoveBoy.json,DoveBoy/Apps
 zephyr-portable.json,DoveBoy/Apps
 explorerpatcher.json,DoveBoy/Apps
@@ -9004,7 +9006,7 @@ tuya_hu3rror.json,hu3rror/scoop-muggle
 dopamine-preview.json,hu3rror/scoop-muggle
 oh-my-posh_hu3rror.json,hu3rror/scoop-muggle
 Elasticsearch6.json,zhoujin7/tomato
-Q-Dir_zhoujin7.json,zhoujin7/tomato
+Q-Dir.json,zhoujin7/tomato
 notepad--_zhoujin7.json,zhoujin7/tomato
 BeyondCompare_zhoujin7.json,zhoujin7/tomato
 hsqldb.json,zhoujin7/tomato
@@ -9778,9 +9780,11 @@ starward-edge.json,Small-Ku/turbo-bucket
 equilotl-cli.json,Small-Ku/turbo-bucket
 ruffle-nightly_Small-Ku.json,Small-Ku/turbo-bucket
 yae-achievement.json,Small-Ku/turbo-bucket
+ja-netfilter.json,Small-Ku/turbo-bucket
 yap-edge.json,Small-Ku/turbo-bucket
 stardb-exporter.json,Small-Ku/turbo-bucket
 psst-edge.json,Small-Ku/turbo-bucket
+mipcmanager-patch-gui.json,Small-Ku/turbo-bucket
 sarasa-super-ttc.json,Small-Ku/turbo-bucket
 orbolay.json,Small-Ku/turbo-bucket
 process-lasso-edge.json,Small-Ku/turbo-bucket
@@ -9788,6 +9792,7 @@ rare-edge.json,Small-Ku/turbo-bucket
 magpie-edge.json,Small-Ku/turbo-bucket
 pilinara_Small-Ku.json,Small-Ku/turbo-bucket
 jxrlib.json,Small-Ku/turbo-bucket
+mipcmanager-patch-cli.json,Small-Ku/turbo-bucket
 reshade-addon-dll.json,Small-Ku/turbo-bucket
 biome_Small-Ku.json,Small-Ku/turbo-bucket
 ocauxiliarytools.json,WinApps-share/WinApps-bucket
@@ -9899,7 +9904,7 @@ telegram_WinApps-share.json,WinApps-share/WinApps-bucket
 vlc_WinApps-share.json,WinApps-share/WinApps-bucket
 hibituninstaller_WinApps-share.json,WinApps-share/WinApps-bucket
 clash-for-windows_WinApps-share.json,WinApps-share/WinApps-bucket
-cursor_WinApps-share.json,WinApps-share/WinApps-bucket
+cursor.json,WinApps-share/WinApps-bucket
 cpuz-np.json,WinApps-share/WinApps-bucket
 spleeter-gui.json,WinApps-share/WinApps-bucket
 clash.net_WinApps-share.json,WinApps-share/WinApps-bucket
@@ -10318,6 +10323,7 @@ worsttrace.json,ygguorun/scoop-bucket
 TextLocator_ygguorun.json,ygguorun/scoop-bucket
 ShanaEncoder_ygguorun.json,ygguorun/scoop-bucket
 ttfname3.json,ygguorun/scoop-bucket
+uu-remote.json,ygguorun/scoop-bucket
 sonixd.json,ygguorun/scoop-bucket
 DDMonitor.json,ygguorun/scoop-bucket
 163MusicLyrics_ygguorun.json,ygguorun/scoop-bucket
@@ -14018,7 +14024,7 @@ dns-jumper.json,ChinLong/scoop-customize
 oraclejdk8_ChinLong.json,ChinLong/scoop-customize
 wsl-terminal.json,ChinLong/scoop-customize
 utools_ChinLong.json,ChinLong/scoop-customize
-ja-netfilter.json,ChinLong/scoop-customize
+ja-netfilter_ChinLong.json,ChinLong/scoop-customize
 lx-music_ChinLong.json,ChinLong/scoop-customize
 nsis-3.0a1.json,NSIS-Dev/scoop-nsis
 nsis-2.16.json,NSIS-Dev/scoop-nsis
