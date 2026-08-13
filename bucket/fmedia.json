@@ -10,7 +10,7 @@
         },
         "32bit": {
             "url": "https://github.com/stsaz/fmedia/releases/download/v1.6/fmedia-1.6-win-x86.zip",
-            "hash": "bf7f0d7c9a9c38c1ebf2c4a49c36656e80cb5b433de5b36d12692c985b62bf42"
+            "hash": ""
         }
     },
     "extract_dir": "fmedia",
@@ -27,16 +27,12 @@
         "fmedia-user.conf"
     ],
     "checkver": {
-        "url": "https://github.com/stsaz/fmedia/tags",
-        "regex": "/releases/tag/v([\\d.]+[\\w]*)"
+        "github": "https://github.com/stsaz/fmedia"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/stsaz/fmedia/releases/download/v$version/fmedia-$version-windows-x64.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/stsaz/fmedia/releases/download/v1.6/fmedia-1.6-win-x86.zip"
             }
         }
     }
