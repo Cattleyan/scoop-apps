@@ -1,0 +1,43 @@
+{
+    "version": "2.1.1.2",
+    "description": "使用Flutter开发的BiliBili第三方客户端",
+    "homepage": "https://github.com/bggRGjQaUbCoE/PiliPlus",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.1.2/PiliPlus_windows_2.1.1+5231_x64_portable.zip",
+            "hash": "994f9c9145ba48293c7235b918c9fcb813b9e1356f78bef72ebb793cdd02a65f"
+        }
+    },
+    "extract_dir": "PiliPlus-Win",
+    "shortcuts": [
+        [
+            "piliplus.exe",
+            "PiliPlus"
+        ]
+    ],
+    "installer": {
+        "script": [
+            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+            "New-PersistDirectory \"$env:APPDATA\\com.example\\piliplus\" \"$persist_dir\\AppData\" -Migrate"
+        ]
+    },
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:APPDATA\\com.example\\piliplus\"",
+        "Remove-EmptyDirectory \"$env:APPDATA\\com.example\""
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/bggRGjQaUbCoE/PiliPlus/releases/latest",
+        "regex": "/download/([^/]+)/PiliPlus_windows_(?<main>[\\d.]+)%2B(?<build>\\d+)_x64"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/$version/PiliPlus_windows_$matchMain+$matchBuild_x64_portable.zip"
+            }
+        }
+    }
+}
