@@ -1,12 +1,12 @@
 {
-    "version": "26.825.4187.0",
+    "version": "26.825.6671.0",
     "description": "A coding agent that helps you build and ship with AI—powered by ChatGPT.",
     "homepage": "https://openai.com/codex/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://list.xrgzs.top/d/pxy/Software/Tools/Backup/Codex/Codex_26.825.4187.0_x64.msix#/dl.7z",
-            "hash": "ad6fd109d618ace70ea313706bcb5d1ce1a6d31b5f314c00878a0dda9733d8e0"
+            "url": "https://list.xrgzs.top/d/pxy/Software/Tools/Backup/Codex/Codex_26.825.6671.0_x64.msix#/dl.7z",
+            "hash": "1a3088e72fcca3f9cabb1eb288cfc9ca78bd6392dbdd42cb20d1317040af0056"
         }
     },
     "suggest": {
