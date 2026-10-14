@@ -1,16 +1,16 @@
 {
-    "version": "3.5.0",
+    "version": "3.6.1",
     "description": "An image upload and manage tool, base on PicGo",
     "homepage": "https://piclist.cn/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kuingsmile/PicList/releases/download/v3.5.0/PicList-Setup-3.5.0-x64-portable.zip",
-            "hash": "215e8eabc21a02745660e37eb47cff8b31158379382447983acf7e533f97bebc"
+            "url": "https://github.com/Kuingsmile/PicList/releases/download/v3.6.1/PicList-Setup-3.6.1-x64-portable.zip",
+            "hash": "f551ea4770bf0baabfe9d5f43359bf18989b2dc7a7ef10e2a0a03b8988db5c9a"
         },
         "arm64": {
-            "url": "https://github.com/Kuingsmile/PicList/releases/download/v3.5.0/PicList-Setup-3.5.0-arm64-portable.zip",
-            "hash": "27bf006d9fa9958e8e5fe6401c6f25c9e3dfdf1971cea00e311c6a604a498626"
+            "url": "https://github.com/Kuingsmile/PicList/releases/download/v3.6.1/PicList-Setup-3.6.1-arm64-portable.zip",
+            "hash": "08d57f1bd16dcca6d50b726845a705b99c419f58317cff8d48c4d0b175299c2f"
         }
     },
     "shortcuts": [
